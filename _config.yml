@@ -26,6 +26,7 @@ rss: rss
 # - username: jekyll2
 #   instance: example.com
 
+#paginate: 5
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
