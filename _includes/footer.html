@@ -3,22 +3,22 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
+    <!-- <h2 class="footer-heading">{{ site.title | escape }} </h2> -->
+	
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
 			<li class="p-name">
-            {%- if site.author -%}
+            <!-- {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
               {{ site.title | escape }}
-            {%- endif -%}
+            {%- endif -%} -->
             </li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
-			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+			<a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">
 				<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
 			</a>
         </ul>
@@ -35,5 +35,8 @@
     </div>
 
   </div>
-
+	<script>
+	//var d = new Date();
+	//document.getElementById("current_year").innerHTML = d.getFullYear();
+	</script>
 </footer>

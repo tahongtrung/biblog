@@ -1,14 +1,15 @@
 title: BILOG
+list_title: huhu
 author: tahongtrung
 email: trung2nd@gmail.com
 description: > # this means to ignore newlines until "twitter_username:"
   You only live once
-#footer quote
+#footer
 quote: To go fast, go alone. To go far, go together African proverb
 # social links
 twitter_username: tahongtrung
 github_username:  tahongtrung
-rss: rss
+#rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -25,8 +26,8 @@ rss: rss
 # - username: jekyll2
 #   instance: example.com
 
-#paginate: 5
-
+paginate: 3
+paginate_path: "/blog/page:num/"
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
