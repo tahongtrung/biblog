@@ -37,7 +37,7 @@ layout: default
 	{% if paginator.total_pages > 1 %}
 	<div class="pagination">
 		{% if paginator.previous_page %}
-			<a href=" bilog/ {{paginator.previous_page_path }}">&laquo; Prev</a>
+			<a href="{{paginator.previous_page_path }}">&laquo; Prev</a>
 		{% else %}
 			<span>&laquo; Prev</span>
 		{% endif %}
@@ -46,14 +46,14 @@ layout: default
 			{% if page == paginator.page %}
 				<em>{{ page }}</em>
 			{% elsif page == 1 %}
-				<a href="/">{{ page }}</a>
+				<a href="/bilog">{{ page }}</a>
 			{% else %}
 				<a href="/bilog/page{{ page }}">{{ page }}</a>
 			{% endif %}
 		{% endfor %}
 
 		{% if paginator.next_page %}
-			<a href=" bilog/{{ paginator.next_page_path }}">Next &raquo;</a>
+			<a href=" {{ paginator.next_page_path }}">Next &raquo;</a>
 		{% else %}
 			<span>Next &raquo;</span>
 		{% endif %}
