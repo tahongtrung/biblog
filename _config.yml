@@ -46,7 +46,7 @@ google_analytics:
 #for production
 url: 'https://tahongtrung.github.io'
 baseurl: '/bilog'
-paginate_path: "/bilog/page:num/"
+#paginate_path: "/bilog/page:num/"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -83,7 +83,7 @@ kramdown:
 #markdown: redcarpet
 #redcarpet:
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
+debug: true
 #paginate
 paginate: 3
 # Set the Sass partials directory, as we're using @imports
