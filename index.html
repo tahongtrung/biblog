@@ -18,46 +18,50 @@ layout: default
 			
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
+	
   {% endfor %}
-  <!-- Pagination links -->
-	<div class="pagination">
-		{% if paginator.previous_page %}
-			<a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
-		{% else %}
-			<span class="previous">Previous</span>
-		{% endif %}
-		<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-		{% if paginator.next_page %}
-			<a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">Next</a>
-		{% else %}
-			<span class="next ">Next</span>
-		{% endif %}
-	</div>
-	<!-- -->
-	{% if paginator.total_pages > 1 %}
-	<div class="pagination">
-		{% if paginator.previous_page %}
-			<a href="/bilog{{paginator.previous_page_path }}">&laquo; Prev</a>
-		{% else %}
-			<span>&laquo; Prev</span>
-		{% endif %}
-
-		{% for page in (1..paginator.total_pages) %}
-			{% if page == paginator.page %}
-				<em>{{ page }}</em>
-			{% elsif page == 1 %}
-				<a href="/bilog">{{ page }}</a>
+	
+	<div class="paginate-group">
+		<!-- Pagination links 1 -->
+		<div class="pagination">
+			{% if paginator.previous_page %}
+				<a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
 			{% else %}
-				<a href="/bilog/page{{ page }}">{{ page }}</a>
+				<span class="previous">Previous</span>
 			{% endif %}
-		{% endfor %}
+			<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+			{% if paginator.next_page %}
+				<a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">Next</a>
+			{% else %}
+				<span class="next ">Next</span>
+			{% endif %}
+		</div>
+		<!-- Pagination links 2 -->
+		{% if paginator.total_pages > 1 %}
+		<div class="pagination">
+			{% if paginator.previous_page %}
+				<a href="/bilog{{paginator.previous_page_path }}">&laquo; Prev</a>
+			{% else %}
+				<span>&laquo; Prev</span>
+			{% endif %}
 
-		{% if paginator.next_page %}
-			<a href="/bilog{{ paginator.next_page_path }}">Next &raquo;</a>
-		{% else %}
-			<span>Next &raquo;</span>
+			{% for page in (1..paginator.total_pages) %}
+				{% if page == paginator.page %}
+					<em>{{ page }}</em>
+				{% elsif page == 1 %}
+					<a href="/bilog">{{ page }}</a>
+				{% else %}
+					<a href="/bilog/page{{ page }}">{{ page }}</a>
+				{% endif %}
+			{% endfor %}
+
+			{% if paginator.next_page %}
+				<a href="/bilog{{ paginator.next_page_path }}">Next &raquo;</a>
+			{% else %}
+				<span>Next &raquo;</span>
+			{% endif %}
+		</div>
 		{% endif %}
 	</div>
-	{% endif %}
 	
 </div>
