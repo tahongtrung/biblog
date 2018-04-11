@@ -80,12 +80,16 @@ version: v3.7.3
 #  syntax_highlighter_opts:
 #    # Use existing pygments syntax highlighting css
 #    css_class: 'highlight'
-
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
 #markdown: rdiscount
 #markdown: kramdown
 #markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+#redcarpet:
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 #debug: true
 #paginate
 paginate: 3
