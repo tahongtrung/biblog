@@ -86,7 +86,7 @@ markdown: kramdown
 #markdown: redcarpet
 #redcarpet:
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-debug: true
+#debug: true
 #paginate
 paginate: 3
 # Set the Sass partials directory, as we're using @imports
