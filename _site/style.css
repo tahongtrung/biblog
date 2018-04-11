@@ -1,6 +1,7 @@
 /***************/
 /* MEYER RESET */
 /***************/
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,8 +65,8 @@ html {
 }
 
 body {
+  font-family: 'Inconsolata', monospace;
   background: #fff;
-  font: 18px/1.4 Helvetica, Arial, sans-serif;
   color: #333;
 }
 

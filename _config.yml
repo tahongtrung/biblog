@@ -19,7 +19,7 @@ show_excerpts: true
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: trung2nd@gmail.com
+  email: #trung2nd@gmail.com
   facebook: tahongtrung
   flickr:
   github: tahongtrung
@@ -82,10 +82,10 @@ version: v3.7.3
 #    css_class: 'highlight'
 
 #markdown: rdiscount
-markdown: kramdown
+#markdown: kramdown
 #markdown: redcarpet
-#redcarpet:
-#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 #debug: true
 #paginate
 paginate: 3
