@@ -86,7 +86,7 @@ version: v3.7.3
 #  hard_wrap: false
 #highlighter: rouge
 #markdown: rdiscount
-#markdown: kramdown
+markdown: kramdown
 #markdown: redcarpet
 #redcarpet:
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
