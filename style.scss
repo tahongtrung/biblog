@@ -292,6 +292,7 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+/*
 table{
     border-collapse: collapse;
     border-spacing: 0;
@@ -304,4 +305,38 @@ th{
 
 td{
     border:1px solid #000000;
+}*/
+
+/**
+ * Tables
+ */
+$grey-color:       #828282 !default;
+$spacing-unit:     30px !default;
+$table-text-align: left !default;
+$text-color:       #111 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+
+table {
+  margin-bottom: $spacing-unit;
+  width: 100%;
+  text-align: $table-text-align;
+  color: lighten($text-color, 18%);
+  border-collapse: collapse;
+  border: 1px solid $grey-color-light;
+  tr {
+    &:nth-child(even) {
+      background-color: lighten($grey-color-light, 6%);
+    }
+  }
+  th, td {
+    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+  }
+  th {
+    background-color: lighten($grey-color-light, 3%);
+    border: 1px solid darken($grey-color-light, 4%);
+    border-bottom-color: darken($grey-color-light, 12%);
+  }
+  td {
+    border: 1px solid $grey-color-light;
+  }
 }
