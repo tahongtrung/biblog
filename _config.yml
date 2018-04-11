@@ -7,7 +7,7 @@ name: BILOG
 # Tile of defaul
 title: BILOG
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: log your mind
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -19,7 +19,7 @@ show_excerpts: true
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: trung2nd@gmail.com
   facebook: tahongtrung
   flickr:
   github: tahongtrung
