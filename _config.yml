@@ -43,20 +43,22 @@ google_analytics:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 
-#for production
+#########for production############################
 url: 'https://tahongtrung.github.io/bilog'
 baseurl: 'https://tahongtrung.github.io/bilog'
-#paginate_path: '/bilog/page:num/'
 paginate_path: '/page:num'
+############ end for production ###################
+#paginate_path: '/bilog/page:num/'
+
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-#for development
+#################for development##################
 #url:
 #baseurl:
-#
+################# End for development #############
 # !! You don't need to change any of the configuration flags below !!
 #
 #future: true
@@ -69,7 +71,8 @@ permalink: /:title/
 version: v3.7.3
 
 # Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
+#kramdown
+markdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
