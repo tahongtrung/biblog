@@ -4,6 +4,12 @@ title: Bitime
 permalink: /bitime/
 ---
 
+
+$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $
+
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+
+
 | Priority apples | Second priority | Third priority |
 |-------|--------|---------|
 | ambrosia | gala | red delicious |
