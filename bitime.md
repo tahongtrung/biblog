@@ -5,7 +5,7 @@ permalink: /bitime/
 ---
 
 
-$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
