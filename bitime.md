@@ -3,7 +3,9 @@ layout: page
 title: Bitime
 permalink: /bitime/
 ---
-
+$$\frac{1}{n^{2}}$$
+$$ \begin{aligned} \dot{x} & = \sigma(y-x) \\ \dot{y} & = \rho x - y - xz \\ \dot{z} & = -\beta z + xy \end{aligned} $$
+$$a^2 + b^2 = c^2$$
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
