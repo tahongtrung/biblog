@@ -28,6 +28,24 @@
     
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <style>
+			.go-top {
+					position:fixed;
+					bottom:2em;
+					right:2em;
+					text-decoration:none;
+					color:white;
+					background-color:#616161;
+					opacity:0.8;
+					padding:5px 10px;
+					display:none;
+			}
+			.go-top:hover {
+					background-color:#3B90CE;
+					opacity:1;
+					color:white;
+			}
+		</style>
   </head>
 
   <body>
@@ -82,6 +100,7 @@
 
 
 
+          <a href="#" class="go-top">Go Top</a>
         </footer>
       </div>
     </div>
@@ -90,5 +109,27 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script>
+			var backTop = {
+				init: function(){
+						$(doc).ready(function(){
+										// Show or Hide The Sticky Footer Button
+										$(window).scroll(function(){
+												if ($(this).scrollTop() > 200 ) {
+
+														$('.go-top').fadeIn(200);
+												} else {
+														$('.go-top').fadeOut(200);
+												}
+										});
+										// Animate the scroll to top
+										$('.go-top').click(function(e){
+												e.preventDefault();
+												$('html,body').animate({scrollTop: 0}, 300);
+										});
+						});
+				}
+			};
+		</script>
   </body>
 </html>
