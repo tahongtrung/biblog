@@ -8,6 +8,7 @@
 @import "reset";
 @import "variables";
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -155,6 +156,9 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+	background-color: #eee;
+  border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 }
 
 .masthead {
