@@ -139,10 +139,11 @@
 					 $('html, body').animate({scrollTop:0}, 'slow');
 			}
 			
-			$('iframe').on('load', function(){
-					var svg = document.querySelector("body svg");
-					svg.style.width = "30px !important";
-					svg.style.height = "30px !important";
+			$('body iframe').on('load', function(){
+					var svg = document.querySelector("body iframe svg");
+					svg.setAttribute("width", "30px");
+					svg.setAttribute("heigth", "30px");
+					console.log(svg);
 			});
 		</script>
   </body>
