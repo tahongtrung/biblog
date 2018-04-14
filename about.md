@@ -13,7 +13,7 @@ permalink: /about/
 :no_entry: Mình viết blog này là để:
 
 - Khoe mẽ với thằng [bạn](https://www.facebook.com/trancamtruong){:target="_blank"} cờ hó của mình.
-- Viết lại mấy cái Algorithms hay hay trong sách
+- Viết lại mấy cái Algorithms hay hay trong :book:
 - Rèn cách viết cho người ta hiểu trước khi rèn cách nói cho người ta hiểu ^^
 - Quan trọng nhất là mình thích thì mình viết thôi :D (DK méo care!)
 
@@ -39,6 +39,4 @@ Mấy đứa nào thân quen mình thì vui lòng share giúp không thân quen 
 [trung2nd@gmail.com](mailto:trung2nd@gmail.com)
 
 ```Trăm năm Kiều vẫn là Kiều,
-Dev đi fix bug là điều hiển nhiên!```
-Dev đi fix bug là điều hiển nhiên!```
 Dev đi fix bug là điều hiển nhiên!```
