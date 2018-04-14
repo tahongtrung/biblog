@@ -6,7 +6,7 @@ permalink: /about/
 
 :no_entry: Tính tới thời điểm hiện tại {{ "%B %e, %Y" }}, mình:
 
-- Tên [Trung](https://www.facebook.com/tahongtrung){:target="_blank"} :virgo:
+- Tên [Trung](https://www.facebook.com/tahongtrung){:target="_blank"}(DK) :virgo:
 - Năm cuối PTITHCM, đang trả nợ môn (Toán rời rạc 2 - [3chỉ])
 - Làm tại FRT ECOM HCM (FPT RETAIL), trước đó 4 tháng làm ở SGCOMEDIA (startup company)
 
