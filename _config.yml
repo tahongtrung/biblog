@@ -105,12 +105,13 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-paginate
-- emoji
+#- emoji
 - gemoji
 #emoji_dir: images/emoji
 # graphics/emojis/simple_smile.png | graphics/emojis/bowtie.png
 # https://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/
 emoji_dir: "https://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis"
+
 jekyll-archives:
   enabled: []
   layout: 'archive'
