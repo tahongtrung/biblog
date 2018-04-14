@@ -15,3 +15,5 @@ Bitime | T2 | T3 | T4 | T5 | T6 | T7 | CN
 ------ | -- | -- | -- | -- | -- | -- | --
 Sáng   | xx |    |    | xx | yy | yy |   
 Chiều  |    | xx |    | xx | xx |    |   
+
+Add some emoji to your article! e.g. Hello :wink:
