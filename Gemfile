@@ -21,6 +21,10 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate", "~>1.1.0"
+	gem "jemoji", "~>0.9.0"
+	gem "rake", "~> 10.3.2"
+	gem "minitest", "~> 5.3.5"
+	gem "gemoji", "~>3.0.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -28,5 +32,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-gem "jemoji"
+
+
 # Gems
