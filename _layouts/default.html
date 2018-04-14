@@ -16,8 +16,10 @@
 	
 			#fb-root .fb_dialog{
     		top: 20pt !important;
+/*
 				width: 30px !important;
     		height: 30px !important;
+*/
 			}
 			
 			#myBtn {
@@ -87,7 +89,7 @@
 
     {% include analytics.html %}
 		
-		<div class="fb-customerchat messenger"
+		<div class="fb-customerchat messenger" style="width: 60%;height: 60%;"
 		 page_id="1882114255141464"
 		 minimized="true"
 		 theme_color="#141414"
@@ -139,12 +141,12 @@
 					 $('html, body').animate({scrollTop:0}, 'slow');
 			}
 			
-			$('body iframe').ready(function(){
-					var svg = document.querySelector("body iframe svg");
-					svg.setAttribute("width", "30px");
-					svg.setAttribute("heigth", "30px");
-					console.log(svg);
-			});
+//			$('body iframe').ready(function(){
+//					var svg = document.querySelector("body iframe svg");
+//					svg.setAttribute("width", "30px");
+//					svg.setAttribute("heigth", "30px");
+//					console.log(svg);
+//			});
 			
 		</script>
   </body>
