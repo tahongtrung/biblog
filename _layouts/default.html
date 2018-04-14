@@ -27,7 +27,7 @@
 				height: 30px !important;	
 			}
 */
-			#fb-root .fb_dialog .fb_dialog_content iframe html body div svg{
+			#fb-root .fb_dialog svg{
 				width: 30px !important;
 				height: 30px !important;	
 			}
@@ -97,23 +97,6 @@
     </div>
 
     {% include analytics.html %}
-    
-<!--
-    <div class="fb-send-to-messenger" 
-			messenger_app_id="233234950569136" 
-			page_id="1882114255141464" 
-			data-ref="<PASS_THROUGH_PARAM>" 
-			color="blue" 
-			size="<standard">
-		</div>
-		<div class="fb-customerchat"
-		 page_id="1882114255141464"
-		 ref="<OPTIONAL_WEBHOOK_PARAM>"
-		 theme_color="#141414"
-		 logged_in_greeting="Welcome to Bilog!"
-		 logged_out_greeting="Goodbey!">
-		</div>
--->
 		
 		<div class="fb-customerchat"
 		 page_id="1882114255141464"
@@ -122,6 +105,7 @@
 		 logged_in_greeting="Welcome to Bilog!"
 		 logged_out_greeting="See you late!">
 		</div>
+		
 		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
 		
 		<div id="fb-root"></div>
@@ -142,27 +126,14 @@
 				 fjs.parentNode.insertBefore(js, fjs);
 			 }(document, 'script', 'facebook-jssdk'));
 		</script>
-<!--
-		<script>(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=233234950569136&autoLogAppEvents=1';
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
--->
 		
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 		
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-		<!-- float facebook like box start -->
-<!--		<script id="float_fb" src="//pic.sopili.net/pub/float_fb/widget.js" data-href="https://www.facebook.com/bilogvn" async></script>-->
-		<!-- float facebook like box end -->
    
     <script>
-			// When the user scrolls down 20px from the top of the document, show the button
 			window.onscroll = function() {scrollFunction()};
 			function scrollFunction() {
 					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -171,7 +142,6 @@
 							document.getElementById("myBtn").style.display = "none";
 					}
 			}
-			// When the user clicks on the button, scroll to the top of the document
 			function topFunction() {
 					 $('html, body').animate({scrollTop:0}, 'slow');
 			}
