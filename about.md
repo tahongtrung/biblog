@@ -3,8 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-Some information about me!
+Tính tới thời điểm hiện tại '`r format(Sys.time(), "%d %B, %Y")`', mình:
+- Tên [Trung](https://www.facebook.com/tahongtrung){:target="_blank"}
+- Năm cuối PTITHCM, đang trả nợ môn (Toán rời rạc 2 - [3chỉ])
+- Đang làm tại FRT ECOM (FPT RETAIL), trước đó 4 tháng làm ở SGCOMEDIA (startup company)
 
 ### More Information
 
