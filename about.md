@@ -23,7 +23,7 @@ permalink: /about/
 - ```
 Mấy đứa nào thân quen mình thì vui lòng share giúp không thân quen cũng share giúp DK nha hihi!```
 
-:no_entry: Chân thành cảm ơn hội bạn học, hội bóp team, hội crush, hội người yêu cũ, hội ngáo đá đã đồng hành cùng DK suốt thời gian qua  
+:no_entry: Chân thành cảm ơn hội bạn học, hội bạn dì, hội bóp team, hội crush, hội người yêu cũ, hội ngáo đá đã đồng hành cùng DK suốt thời gian qua  
 
 
 <p align="center">
