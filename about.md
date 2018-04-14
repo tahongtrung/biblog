@@ -34,7 +34,7 @@ Mấy đứa nào thân quen mình thì vui lòng share giúp không thân quen 
 
 
 
-### Contact me
+### Contact me :email:
 
 [trung2nd@gmail.com](mailto:trung2nd@gmail.com)
 
