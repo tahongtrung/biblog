@@ -13,16 +13,13 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <style>
-			.fb-customerchat{
-				width: 30px !important;
-    		height: 30px !important;
-			}
+	
 			#fb-root .fb_dialog{
     		top: 20pt !important;
 				width: 30px !important;
     		height: 30px !important;
 			}
-			html body div#fb-root.fb_reset div.fb_dialog.fb_dialog_advanced div.fb_dialog_content iframe html body div svg{
+			body svg{
 				width: 30px !important;
 				height: 30px !important;	
 			}
@@ -130,7 +127,7 @@
 		
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
    
-    <script>
+    <script>.addClass("intro");
 			$('html body div#fb-root.fb_reset div.fb_dialog.fb_dialog_advanced div.fb_dialog_content iframe html body div svg').css('height','30px !important');
 			$('html body div#fb-root.fb_reset div.fb_dialog.fb_dialog_advanced div.fb_dialog_content iframe html body div svg').css('width','30px !important');
 			window.onscroll = function() {scrollFunction()};
