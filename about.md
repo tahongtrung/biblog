@@ -37,7 +37,7 @@ Mấy đứa nào thân quen mình thì vui lòng share giúp không thân quen 
 
 [trung2nd@gmail.com](mailto:trung2nd@gmail.com)
 
-<p align="center" clas="pre">
+<p align="center" class="pre">
 Trăm năm Kiều vẫn là Kiều,<br/>
 Dev đi fix bug là điều hiển nhiên!
 </p>
