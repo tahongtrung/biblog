@@ -25,9 +25,7 @@ Mấy đứa nào thân quen mình thì vui lòng share giúp không thân quen 
 
 :no_entry: Chân thành cảm ơn hội bạn học, hội bạn dì, hội bóp team, hội crush, hội người yêu cũ, hội ngáo đá đã đồng hành cùng DK suốt thời gian qua  
 
-<pre>
-hellowolrd
-</pre>
+
 
 <p align="center">
  	<i class="far fa-copyright"></i>
@@ -41,6 +39,11 @@ hellowolrd
 
 [trung2nd@gmail.com](mailto:trung2nd@gmail.com)
 
-```Trăm năm Kiều vẫn là Kiều,
-Dev đi fix bug là điều hiển nhiên!```
+```
 
+```
+
+<pre align="center">
+Trăm năm Kiều vẫn là Kiều,<br>
+Dev đi fix bug là điều hiển nhiên!
+</pre>
