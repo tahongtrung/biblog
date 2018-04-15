@@ -43,7 +43,7 @@ Mấy đứa nào thân quen mình thì vui lòng share giúp không thân quen 
 
 ```
 
-<pre align="center">
-Trăm năm Kiều vẫn là Kiều,<br>
+<bre align="center">
+Trăm năm Kiều vẫn là Kiều,
 Dev đi fix bug là điều hiển nhiên!
-</pre>
+</bre>
