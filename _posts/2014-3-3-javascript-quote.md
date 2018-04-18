@@ -13,3 +13,7 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
 <p align="center" class="pre">
 JS can do everything but take care on how to handle exceptions in your code. Otherwise they go crazy like the panda above.
 </p>
+
+:smiley:
+
+:smiley:
