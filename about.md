@@ -6,6 +6,8 @@ permalink: /about/
 
 :no_entry: Tính tới thời điểm hiện tại {{ "%B %e, %Y" }}, mình:
 
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+
 - Tên [Trung](https://www.facebook.com/tahongtrung){:target="_blank"}(DK) :virgo:
 - Năm cuối PTITHCM, đang trả nợ môn (Toán rời rạc 2 - [3chỉ]) /*Chừng nào trả xong mình xóa dòng này đi^^*/
 - Làm tại FRT ECOM HCM (FPT RETAIL), trước đó 4 tháng làm ở SGCOMEDIA (startup company)

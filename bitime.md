@@ -52,6 +52,8 @@ An image, located within /images
 2. ordered
 3. list
 
+<script async src="//jsfiddle.net/tahongtrung/vtj39zx4/embed/"></script>
+
 Inline markup styles:
 
 - _italics_
@@ -87,3 +89,7 @@ Markdown | Less | Pretty
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+
+<script src="https://gist.github.com/tahongtrung/bb645ff2bce1ce87f83539191922cd0d.js"></script>
+
