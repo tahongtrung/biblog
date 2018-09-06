@@ -7,19 +7,32 @@
 
 @import "reset";
 @import "variables";
+//@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+//@import url('https://fonts.googleapis.com/css?family=Cormorant Infant');
+//@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+//@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
 /* BASE RULES */
 /**************/
-
+.pre{
+	padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+	line-height: 1.45;
+  background-color: #f6f8fa;
+	border: 1px solid #ddd;
+  border-radius: 3px;
+}
 html {
   font-size: 100%;
 }
 
 body {
+	font-family:  'Consolas', serif;
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  //font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -31,7 +44,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+	font-family:  'Consolas', serif;
+  //font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -152,6 +166,9 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+	background-color: #eee;
+  border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 }
 
 .masthead {
@@ -194,7 +211,8 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+	font-family:  'Consolas', serif;
+  //font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +231,8 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+	font-family:  'Consolas', serif;
+  //font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -287,3 +306,51 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+/*
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #ff0000;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}*/
+
+/**
+ * Tables
+ */
+$grey-color:       #828282 !default;
+$spacing-unit:     30px !default;
+$table-text-align: left !default;
+$text-color:       #111 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+
+table {
+  margin-bottom: $spacing-unit;
+  width: 100%;
+  text-align: $table-text-align;
+  color: lighten($text-color, 18%);
+  border-collapse: collapse;
+  border: 1px solid $grey-color-light;
+  tr {
+    &:nth-child(even) {
+      background-color: lighten($grey-color-light, 6%);
+    }
+  }
+  th, td {
+    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+  }
+  th {
+    background-color: lighten($grey-color-light, 3%);
+    border: 1px solid darken($grey-color-light, 4%);
+    border-bottom-color: darken($grey-color-light, 12%);
+  }
+  td {
+    border: 1px solid $grey-color-light;
+  }
+}
