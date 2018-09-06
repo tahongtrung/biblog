@@ -47,6 +47,8 @@ An image, located within /images
 - alternative syntax 1
 + alternative syntax 2
   - an indented list item
+  
+<script src="https://gist.github.com/trung2nd/62cb2ac46b1d797e03dc5d4f181ce1f6.js"></script>
 
 1. An
 2. ordered
