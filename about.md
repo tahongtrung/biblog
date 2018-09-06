@@ -43,5 +43,5 @@ Trăm năm Kiều vẫn là Kiều,<br/>
 Dev đi fix bug là điều hiển nhiên!
 </p>
 <p align="center">
- 	Made with <i style="color:red">♥</i> by <a href="https://jekyllrb.com" target="_blank">jekyll</a>
+ 	Made with <i style="color:red">❤</i> by <a href="https://jekyllrb.com" target="_blank">jekyll</a>
 </p>
