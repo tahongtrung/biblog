@@ -34,7 +34,9 @@ Nếu bạn đang xài VPS thì đừng làm theo cách này (đừng tự bóp 
 	
 	![](https://i.imgur.com/LJtSv7S.png)
 	=> Thêm `/public/` phía sau mà ra này thì chịu luôn. Nói chớ bật debug mode = true lên giùm cái chứ sao mà biết nó lỗi gì!
-
+	
+	![](https://i.imgur.com/bdL9bpi.png)
+	=> Thêm như này nè `public_html/config/app.php`
 
 
 <p align="center" class="pre">
