@@ -10,7 +10,15 @@
   /*overflow: scroll;*/
 	overflow: auto;
 }
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #2ecc71;
+}
 
+::selection {
+    color: #fff;
+    background: #2ecc71;
+}
 code {
   background-color: rgba(0,0,0,.05);
   border-radius: 2px;

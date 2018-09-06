@@ -12,7 +12,7 @@ excerpt: Vì đi support các bạn quá nhiều cái lỗi này và mình cũng
 >
 >Vì đi support các bạn quá nhiều cái lỗi này và mình cũng có hứa là sẽ viết một bài để khỏi đi support dạo nữa mà dạo này bận rộn quá nên chưa viết được nay thì viết bất chấp luôn.
 
-Nếu bạn đang xài VPS thì đừng làm theo cách này (tự bóp  dái)
+Nếu bạn đang xài VPS thì đừng làm theo cách này (đừng tự bóp  dái)
 >Post này cũng dành cho các host mà bạn nghĩ nó như 000webhost nói chung là `shared host` đó.
 
 
