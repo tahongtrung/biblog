@@ -22,8 +22,7 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 :no_entry: Thông tin thêm
 - Github của mình có fork, regit lại mấy template có phí (đã set private) lẫn không có phí bạn có thể tham khảo thêm trong repo của mình, mà mình fork nhiều lắm bạ đâu fork đó nào bạn thấy hay thì fork lại tham khảo 
 - Mình có nhận code mướn, cài win dạo tại nhà, anh chị em bạn dì cô chú bác có nhu cầu cứ liên hệ trực tiếp em nó nha
-- ```
-Mấy đứa nào thân quen mình thì vui lòng share giúp không thân quen cũng share giúp DK nha hihi!```
+- Mấy đứa nào thân quen mình thì vui lòng share giúp không thân quen cũng share giúp DK nha hihi!
 
 :no_entry: Chân thành cảm ơn hội bạn học, hội bạn dì, hội bóp team, hội crush, hội người yêu cũ, hội ngáo đá đã đồng hành cùng DK suốt thời gian qua  
 
