@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-06T15:53:51+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">Bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/">&lt;h2 id=&quot;000webhostcom&quot;&gt;000webhost.com&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-06T15:58:10+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">Bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/">&lt;h2 id=&quot;000webhostcom&quot;&gt;000webhost.com&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JCzgVq8.png&quot; alt=&quot;https://www.000webhost.com&quot; /&gt;&lt;/p&gt;
 
@@ -13,15 +13,17 @@ Vì đi support các bạn quá nhiều cái lỗi này và mình cũng có hứ
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;1. Nếu bạn chưa up source lên host&lt;/strong&gt; 
-Các bước bạn cần làm là:
-    &lt;ul&gt;
-      &lt;li&gt;Dừng server lại nha&lt;/li&gt;
-      &lt;li&gt;Clear cache này nọ các kiểu nói chung là xóa sạch cache&lt;/li&gt;
-      &lt;li&gt;Xóa thư mục chứa cache &lt;code class=&quot;highlighter-rouge&quot;&gt;/bootstrap/cache/*&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Config file &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; đúng với trên host thật&lt;/li&gt;
-      &lt;li&gt;Rồi up lên đi. Hên xuôi à! bình thường ai ăn ở tốt thì work luôn khỏi next step 2. :D&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;&lt;strong&gt;1. Nếu bạn chưa up source lên host&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Các bước bạn cần làm là:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dừng server lại nha&lt;/li&gt;
+  &lt;li&gt;Clear cache này nọ các kiểu nói chung là xóa sạch cache&lt;/li&gt;
+  &lt;li&gt;Xóa thư mục chứa cache &lt;code class=&quot;highlighter-rouge&quot;&gt;/bootstrap/cache/*&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Config file &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; đúng với trên host thật&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rồi up lên đi. Hên xuôi à! bình thường ai ăn ở tốt thì work luôn khỏi next step 2. :D&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;2. Nếu bạn trót dại up source lên host roài! ==’&lt;/strong&gt;
     &lt;ul&gt;
