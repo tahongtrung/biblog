@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-06T17:37:08+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">Bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/">&lt;h2 id=&quot;000webhostcom&quot;&gt;000webhost.com&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-06T17:41:22+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">Bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/">&lt;h2 id=&quot;000webhostcom&quot;&gt;000webhost.com&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JCzgVq8.png&quot; alt=&quot;https://www.000webhost.com&quot; /&gt;&lt;/p&gt;
 
@@ -21,51 +21,56 @@
   &lt;li&gt;Nếu bạn chưa up source lên host:
     &lt;ul&gt;
       &lt;li&gt;Dừng server lại nha&lt;/li&gt;
-      &lt;li&gt;Clear cache này nọ các kiểu nói chung là xóa sạch cache&lt;/li&gt;
-      &lt;li&gt;Xóa thư mục chứa cache &lt;code class=&quot;highlighter-rouge&quot;&gt;/bootstrap/cache/*&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Config file &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; đúng với trên host thật&lt;/li&gt;
-      &lt;li&gt;Rồi up lên đi. Hên xuôi à! bình thường ai ăn ở tốt thì work luôn khỏi next step 2. :D&lt;/li&gt;
+      &lt;li&gt;Clear cache này nọ các kiểu nói chung là xóa sạch cache
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;php artisan config:clear&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;php artisan cache:clear&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Nếu bạn trót dại up source lên host roài! ==’
-    &lt;ul&gt;
-      &lt;li&gt;Bật debug mode = true lên (&lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt;) chứ không phải &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/bdL9bpi.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thêm như này nè &lt;code class=&quot;highlighter-rouge&quot;&gt;public_html/config/app.php&lt;/code&gt;
-       + Set app key trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt; luôn như đã nói ở trên &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; là phế phẩm mà.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/rKkXfcP.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; nhớ copy đủ cả prefix &lt;code class=&quot;highlighter-rouge&quot;&gt;base:64...&lt;/code&gt;
-       + Cấu hình database trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/database.php&lt;/code&gt; đa số xài mysql thì config như sau&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/g1IUDcQ.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; lưu ý có 1 option &lt;code class=&quot;highlighter-rouge&quot;&gt;'options'   =&amp;gt; [PDO::ATTR_EMULATE_PREPARES =&amp;gt; true]&lt;/code&gt; cực kì quan trọng nhớ thêm vào&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Phương pháp ăn liền gặp đâu đái đấy! nhầm,, xử đấy.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/bifHN3c.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thử gõ thêm &lt;code class=&quot;highlighter-rouge&quot;&gt;/public/&lt;/code&gt; phía sau url xem nếu work thì copy 2 file &lt;code class=&quot;highlighter-rouge&quot;&gt;index.php&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; ra ngoài.
- =&amp;gt; bonus: nếu lười có thể copy 2 file đấy trong này &lt;a href=&quot;https://bitbucket.org/tahongtrung/naman/src/master/&quot;&gt;naman-project&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/LJtSv7S.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thêm &lt;code class=&quot;highlighter-rouge&quot;&gt;/public/&lt;/code&gt; phía sau mà ra này thì chịu luôn. Nói chớ bật debug mode = true lên giùm cái chứ sao mà biết nó lỗi gì!&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/scqKYXR.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Chưa set app key trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/1bqLuXo.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Chưa config/config sai database trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/database.php&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hdWlHs5.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thiếu option trong config db &lt;code class=&quot;highlighter-rouge&quot;&gt;'options'   =&amp;gt; [PDO::ATTR_EMULATE_PREPARES =&amp;gt; true]&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/xSLMLDr.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Chưa import data cho database.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Xóa thư mục chứa cache &lt;code class=&quot;highlighter-rouge&quot;&gt;/bootstrap/cache/*&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Config file &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; đúng với trên host thật&lt;/li&gt;
+  &lt;li&gt;Rồi up lên đi. Hên xuôi à! bình thường ai ăn ở tốt thì work luôn khỏi next step 2. :D
+    &lt;ol&gt;
+      &lt;li&gt;Nếu bạn trót dại up source lên host roài! ==’&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bật debug mode = true lên (&lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt;) chứ không phải &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt;
+  &lt;img src=&quot;https://i.imgur.com/bdL9bpi.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; Thêm như này nè &lt;code class=&quot;highlighter-rouge&quot;&gt;public_html/config/app.php&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Set app key trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt; luôn như đã nói ở trên &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; là phế phẩm mà.
+  &lt;img src=&quot;https://i.imgur.com/rKkXfcP.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; nhớ copy đủ cả prefix &lt;code class=&quot;highlighter-rouge&quot;&gt;base:64...&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Cấu hình database trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/database.php&lt;/code&gt; đa số xài mysql thì config như sau
+  &lt;img src=&quot;https://i.imgur.com/g1IUDcQ.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; lưu ý có 1 option &lt;code class=&quot;highlighter-rouge&quot;&gt;'options'   =&amp;gt; [PDO::ATTR_EMULATE_PREPARES =&amp;gt; true]&lt;/code&gt; cực kì quan trọng nhớ thêm vào
+    &lt;ol&gt;
+      &lt;li&gt;Phương pháp ăn liền gặp đâu đái đấy! nhầm,, xử đấy.
+  &lt;img src=&quot;https://i.imgur.com/bifHN3c.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; Thử gõ thêm &lt;code class=&quot;highlighter-rouge&quot;&gt;/public/&lt;/code&gt; phía sau url xem nếu work thì copy 2 file &lt;code class=&quot;highlighter-rouge&quot;&gt;index.php&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; ra ngoài.
+  =&amp;gt; bonus: nếu lười có thể copy 2 file đấy trong này &lt;a href=&quot;https://bitbucket.org/tahongtrung/naman/src/master/&quot;&gt;naman-project&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/LJtSv7S.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; Thêm &lt;code class=&quot;highlighter-rouge&quot;&gt;/public/&lt;/code&gt; phía sau mà ra này thì chịu luôn. Nói chớ bật debug mode = true lên giùm cái chứ sao mà biết nó lỗi gì!&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/scqKYXR.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; Chưa set app key trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/1bqLuXo.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; Chưa config/config sai database trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/database.php&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hdWlHs5.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; Thiếu option trong config db &lt;code class=&quot;highlighter-rouge&quot;&gt;'options'   =&amp;gt; [PDO::ATTR_EMULATE_PREPARES =&amp;gt; true]&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/xSLMLDr.png&quot; alt=&quot;&quot; /&gt;
+  =&amp;gt; Chưa import data cho database.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p align=&quot;center&quot; class=&quot;pre&quot;&gt;
 JS can do everything but take care on how to handle exceptions in your code. Otherwise they go crazy like the panda above.
