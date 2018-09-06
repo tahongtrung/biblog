@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-06T16:55:27+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">Bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/">&lt;h2 id=&quot;000webhostcom&quot;&gt;000webhost.com&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-06T17:37:08+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">Bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/">&lt;h2 id=&quot;000webhostcom&quot;&gt;000webhost.com&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JCzgVq8.png&quot; alt=&quot;https://www.000webhost.com&quot; /&gt;&lt;/p&gt;
 
@@ -11,6 +11,10 @@
 &lt;p&gt;Nếu bạn đang xài VPS thì đừng làm theo cách này (đừng tự bóp  dái)&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Post này cũng dành cho các host mà bạn nghĩ nó như 000webhost nói chung là &lt;code class=&quot;highlighter-rouge&quot;&gt;shared host&lt;/code&gt; đó.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lưu ý toàn bộ config trong file &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; không có tác dụng trên shared host 000webhost này, nên khỏi up cho nhẹ host cũng được!&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ol&gt;
@@ -26,8 +30,18 @@
   &lt;li&gt;Nếu bạn trót dại up source lên host roài! ==’
     &lt;ul&gt;
       &lt;li&gt;Bật debug mode = true lên (&lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt;) chứ không phải &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;vcvcvxcvxvxc&lt;/li&gt;
     &lt;/ul&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/bdL9bpi.png&quot; alt=&quot;&quot; /&gt;
+ =&amp;gt; Thêm như này nè &lt;code class=&quot;highlighter-rouge&quot;&gt;public_html/config/app.php&lt;/code&gt;
+       + Set app key trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt; luôn như đã nói ở trên &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; là phế phẩm mà.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/rKkXfcP.png&quot; alt=&quot;&quot; /&gt;
+ =&amp;gt; nhớ copy đủ cả prefix &lt;code class=&quot;highlighter-rouge&quot;&gt;base:64...&lt;/code&gt;
+       + Cấu hình database trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/database.php&lt;/code&gt; đa số xài mysql thì config như sau&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/g1IUDcQ.png&quot; alt=&quot;&quot; /&gt;
+ =&amp;gt; lưu ý có 1 option &lt;code class=&quot;highlighter-rouge&quot;&gt;'options'   =&amp;gt; [PDO::ATTR_EMULATE_PREPARES =&amp;gt; true]&lt;/code&gt; cực kì quan trọng nhớ thêm vào&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Phương pháp ăn liền gặp đâu đái đấy! nhầm,, xử đấy.&lt;/p&gt;
@@ -39,8 +53,17 @@
     &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/LJtSv7S.png&quot; alt=&quot;&quot; /&gt;
  =&amp;gt; Thêm &lt;code class=&quot;highlighter-rouge&quot;&gt;/public/&lt;/code&gt; phía sau mà ra này thì chịu luôn. Nói chớ bật debug mode = true lên giùm cái chứ sao mà biết nó lỗi gì!&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/bdL9bpi.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thêm như này nè &lt;code class=&quot;highlighter-rouge&quot;&gt;public_html/config/app.php&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/scqKYXR.png&quot; alt=&quot;&quot; /&gt;
+ =&amp;gt; Chưa set app key trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/1bqLuXo.png&quot; alt=&quot;&quot; /&gt;
+ =&amp;gt; Chưa config/config sai database trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/database.php&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hdWlHs5.png&quot; alt=&quot;&quot; /&gt;
+ =&amp;gt; Thiếu option trong config db &lt;code class=&quot;highlighter-rouge&quot;&gt;'options'   =&amp;gt; [PDO::ATTR_EMULATE_PREPARES =&amp;gt; true]&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/xSLMLDr.png&quot; alt=&quot;&quot; /&gt;
+ =&amp;gt; Chưa import data cho database.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
