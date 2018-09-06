@@ -54,8 +54,10 @@ Nếu bạn đang xài VPS thì đừng làm theo cách này (đừng tự bóp 
 	![](https://i.imgur.com/xSLMLDr.png)
 	=> Chưa import data cho database.
 
-<p align="center" class="pre">
+
+Nếu có khó khăn gì trong quá trình fix bug vui lòng để lại comment để được support ^^!
+<!-- <p align="center" class="pre">
 JS can do everything but take care on how to handle exceptions in your code. Otherwise they go crazy like the panda above.
-</p>
+</p> -->
 
 
