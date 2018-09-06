@@ -20,9 +20,7 @@ Nếu bạn đang xài VPS thì đừng làm theo cách này (đừng tự bóp 
 1. Nếu bạn chưa up source lên host:
 + Dừng server lại nha
 + Clear cache này nọ các kiểu nói chung là xóa sạch cache
->`php artisan config:clear`
->`php artisan cache:clear`
-
+`php artisan config:clear` `php artisan cache:clear`
 + Xóa thư mục chứa cache `/bootstrap/cache/*`
 + Config file `.env` đúng với trên host thật
 + Rồi up lên đi. Hên xuôi à! bình thường ai ăn ở tốt thì work luôn khỏi next step 2. :D
