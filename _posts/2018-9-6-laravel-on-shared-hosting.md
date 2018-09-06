@@ -9,6 +9,7 @@ excerpt: Vì đi support các bạn quá nhiều cái lỗi này và mình cũng
 ![https://www.000webhost.com](https://i.imgur.com/JCzgVq8.png)
 
 > #fixbug: laravel shared host
+>
 >Vì đi support các bạn quá nhiều cái lỗi này và mình cũng có hứa là sẽ viết một bài để khỏi đi support dạo nữa mà dạo này bận rộn quá nên chưa viết được nay thì viết bất chấp luôn.
 
 Nếu bạn đang xài VPS thì đừng làm theo cách này (tự bóp  dái)
