@@ -9,8 +9,8 @@ layout: default
  	{% for post in paginator.posts %} 
   
     <article class="post">
-
-      <h2><a href="{{ site.baseurl }}{{ post.url }}"><i class="fab fa-tripadvisor icon-title"></i> {{ post.title }}</a></h2>
+		<!-- <i class="fab fa-tripadvisor icon-title"></i>  -->
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 			
       <div class="entry">
         {{ post.excerpt }}
