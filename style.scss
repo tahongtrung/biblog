@@ -1,19 +1,16 @@
 ---
 ---
 
-//
-// IMPORTS
-//
-
 @import "reset";
 @import "variables";
-//@import url('https://fonts.googleapis.com/css?family=monospace');
-//@import url('https://fonts.googleapis.com/css?family=Inconsolata');
-//@import url('https://fonts.googleapis.com/css?family=Cormorant Infant');
-//@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
-//@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
-// Syntax highlighting @import is at the bottom of this file
 
+
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 0px 4px;
+  font-family: monospace,serif;
+}
 /**************/
 /* BASE RULES */
 /**************/
