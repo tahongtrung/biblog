@@ -1,7 +1,7 @@
 /***************/
 /* MEYER RESET */
 /***************/
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -75,7 +75,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', serif;
+  font-family: 'monospace', serif;
   background: #fff;
   color: #333;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', serif;
+  font-family: 'monospace', serif;
   color: #222;
   font-weight: bold;
   line-height: 1.7;
@@ -248,7 +248,7 @@ img {
   margin: 0;
   color: #333;
   cursor: pointer;
-  font-family: 'Roboto', serif;
+  font-family: 'monospace', serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -268,7 +268,7 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: 'Roboto', serif;
+  font-family: 'monospace', serif;
   font-size: 18px;
 }
 @media screen and (max-width: 640px) {
