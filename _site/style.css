@@ -69,6 +69,13 @@ table {
   border-radius: 3px;
 }
 
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 0px 4px;
+  font-family: monospace,serif;
+}
+
 html {
   font-size: 100%;
 }
@@ -77,13 +84,6 @@ body {
   font-family: monospace, serif;
   background: #fff;
   color: #333;
-}
-
-code {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 2px;
-  padding: 0px 4px;
-  font-family: monospace,serif;
 }
 
 .container {
@@ -358,6 +358,13 @@ footer {
 ::selection {
   color: #fff;
   background: #2ecc71;
+}
+
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 2px 4px;
+  /*font-family:'Bitstream Vera Sans Mono','Courier', monospace;*/
 }
 
 .highlight .c {

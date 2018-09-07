@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-07T15:27:39+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">Bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/">&lt;h2 id=&quot;000webhostcom&quot;&gt;000webhost.com&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-07T18:04:46+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">Bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-on-shared-hosting/">&lt;h2 id=&quot;000webhostcom&quot;&gt;000webhost.com&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JCzgVq8.png&quot; alt=&quot;https://www.000webhost.com&quot; /&gt;&lt;/p&gt;
 
@@ -61,6 +61,9 @@
 
     &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/xSLMLDr.png&quot; alt=&quot;&quot; /&gt;
  =&amp;gt; Chưa import data cho database.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/AXOJt6f.png&quot; alt=&quot;&quot; /&gt;
+ =&amp;gt; các lỗi còn lại có liên quan đến thư mục &lt;code class=&quot;highlighter-rouge&quot;&gt;vender&lt;/code&gt; hoặc syntax lạ -&amp;gt; thường là do k tương thích phiên bản php, các bạn check bằng cách new 1 file info.php trong &lt;code class=&quot;highlighter-rouge&quot;&gt;public_html&lt;/code&gt; của host rồi phpinfo làm tương tự với local của bạn check xem 2 phiên bản php có cùng nhau không hoặc bạn nâng php trên host lên hoặc hạ laravel xuống!&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
