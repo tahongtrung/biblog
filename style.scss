@@ -5,12 +5,7 @@
 @import "variables";
 
 
-code {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 2px;
-  padding: 0px 4px;
-  font-family: monospace,serif;
-}
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -22,6 +17,12 @@ code {
   background-color: #f6f8fa;
 	border: 1px solid #ddd;
   border-radius: 3px;
+}
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 0px 4px;
+  font-family: monospace,serif;
 }
 html {
   font-size: 100%;
