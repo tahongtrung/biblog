@@ -358,7 +358,7 @@ code {
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 2px;
   padding: 2px 4px;
-  /*font-family:'Bitstream Vera Sans Mono','Courier', monospace;*/
+  font-family: monospace,sans-serif;
 }
 
 .highlight .c {
