@@ -55,7 +55,7 @@ Nếu bạn đang xài VPS thì đừng làm theo cách này (đừng tự bóp 
 	=> Chưa import data cho database.
 	
 	![](https://i.imgur.com/AXOJt6f.png)
-	=> các lỗi còn lại có liên quan đến thư mục `vender` hoặc syntax lạ -> thường là do k tương thích phiên bản php, các bạn check bằng cách new 1 file info.php trong `public_html` của host rồi phpinfo làm tương tự với local của bạn check xem 2 phiên bản php có cùng nhau không hoặc bạn nâng php trên host lên hoặc hạ laravel xuống!
+	=> các lỗi còn lại có liên quan đến thư mục `vender` (up thiếu file trong này rồi up lại vender thôi) hoặc syntax lạ -> thường là do k tương thích phiên bản php, các bạn check bằng cách new 1 file info.php trong `public_html` của host rồi phpinfo làm tương tự với local của bạn check xem 2 phiên bản php có cùng nhau không hoặc bạn nâng php trên host lên hoặc hạ laravel xuống!
 	
 Nếu có khó khăn gì trong quá trình fix bug vui lòng để lại comment để được support ^^!
 <!-- <p align="center" class="pre">
