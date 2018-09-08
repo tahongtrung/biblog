@@ -251,6 +251,9 @@ img {
 .site-info .site-name a {
   color: #FFF;
 }
+.site-info .site-name a:hover {
+  color: #4183C4;
+}
 .site-info p {
   color: #FFF;
 }
