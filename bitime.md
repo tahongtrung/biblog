@@ -25,7 +25,7 @@ permalink: /bitime/
 - [ ] Theme v3
 - [ ] Remake UI pagination
 
-### Test evironment
+### Test environment
 
 $$\frac{1}{n^{2}}$$
 $$ \begin{aligned} \dot{x} & = \sigma(y-x) \\ \dot{y} & = \rho x - y - xz \\ \dot{z} & = -\beta z + xy \end{aligned} $$
