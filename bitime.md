@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Bitime
+
 permalink: /bitime/
 ---
+<!-- title: Bitime -->
 
 ### What's new in this version?
 - Theme v2
@@ -24,6 +25,7 @@ permalink: /bitime/
 - [ ] Theme v3
 - [ ] Remake UI pagination
 
+### Test evironment
 
 $$\frac{1}{n^{2}}$$
 $$ \begin{aligned} \dot{x} & = \sigma(y-x) \\ \dot{y} & = \rho x - y - xz \\ \dot{z} & = -\beta z + xy \end{aligned} $$
