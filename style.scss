@@ -216,11 +216,7 @@ img {
     margin: 0 auto;
   }
 }
-nav{
-  a{
-    color:#FFF;
-  }
-}
+
 .site-name {
   margin: 0;
   color: $darkGray;
@@ -258,7 +254,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #FFF;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
