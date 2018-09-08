@@ -4,6 +4,27 @@ title: Bitime
 permalink: /bitime/
 ---
 
+### What's new in this version?
+- Theme v2
+- Emoj
+- Set default font monospace
+
+### Blog in-working !
+
+- [x] Paginate
+- [x] Emoj
+- [x] Math formula
+- [x] Theme v2
+- [x] Embeded code
+- [x] Live chat (Messenger)
+- [x] About page
+- [ ] Tag
+- [ ] Archive
+- [ ] Searching
+- [ ] Theme v3
+- [ ] Remake UI pagination
+
+
 $$\frac{1}{n^{2}}$$
 $$ \begin{aligned} \dot{x} & = \sigma(y-x) \\ \dot{y} & = \rho x - y - xz \\ \dot{z} & = -\beta z + xy \end{aligned} $$
 $$a^2 + b^2 = c^2$$
