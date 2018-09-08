@@ -216,7 +216,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid $lightGray; */
 }
 @media screen and (max-width: 640px) {
   .masthead {
@@ -248,12 +248,19 @@ img {
 .site-info .site-name a {
   color: #FFF;
 }
+.site-info p {
+  color: #FFF;
+}
 @media screen and (max-width: 640px) {
   .site-info {
     float: none;
     display: block;
     margin: 0 auto;
   }
+}
+
+nav a {
+  color: #FFF;
 }
 
 .site-name {
