@@ -105,6 +105,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-paginate
+- jemoji
 #- jekyll-emoji
 - gemoji
 #emoji_dir: images/emoji
