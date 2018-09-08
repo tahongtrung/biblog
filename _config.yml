@@ -17,6 +17,7 @@ avatar: https://i.imgur.com/phSDNle.jpg
 #
 # Flags below are optional
 #
+footer-v2: true
 show_excerpts: true
 # Includes an icon in the footer for each username you enter
 footer-links:
