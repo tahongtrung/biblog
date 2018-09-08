@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  line-height: 1.5;
+  line-height: 1;
 }
 
 ol, ul {
@@ -70,6 +70,7 @@ table {
 }
 
 code {
+  line-height: 1.45;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 2px;
   padding: 0px 4px;
@@ -78,14 +79,12 @@ code {
 
 html {
   font-size: 100%;
-  height: 100%;
 }
 
 body {
   font-family: monospace, serif;
   background: #fff;
   color: #333;
-  height: 100%;
 }
 
 .container {
@@ -311,7 +310,7 @@ nav a {
 }
 
 #main {
-  height: 100%;
+  height: 100vh;
 }
 
 .posts > .post {
