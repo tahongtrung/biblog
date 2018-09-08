@@ -79,12 +79,15 @@ code {
 
 html {
   font-size: 100%;
+  height: 100%;
 }
 
 body {
   font-family: monospace, serif;
   background: #fff;
+  font: 18px/1.4 Helvetica, Arial, sans-serif;
   color: #333;
+  min-height: 100%;
 }
 
 .container {
@@ -96,6 +99,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: monospace, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
   font-weight: bold;
   line-height: 1.7;
@@ -310,7 +314,7 @@ nav a {
 }
 
 #main {
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .posts > .post {
