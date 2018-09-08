@@ -46,8 +46,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family:  monospace, serif;
-  //font-family: $helveticaNeue;
-  color: $darkerGray;
+  /* font-family: $helveticaNeue; */
+  /* color: $darkerGray; */
+  color:#4183C4;
   font-weight: bold;
 
   line-height: 1.7;
@@ -272,7 +273,7 @@ nav {
 // .main
 //
 #main{
-  height:100vh;
+  /* height:100vh; */
 }
 .posts > .post {
   padding-bottom: 2em;
