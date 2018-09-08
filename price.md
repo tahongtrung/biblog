@@ -10,4 +10,4 @@ Giá đi đêm của mình như sau:...
 
 Các bạn xem chi tiết ở studio của team mình nhá!..
 
-<code>https://oxanh.github.io<code>
+<a href="https://oxanh.github.io" target="_blank">https://oxanh.github.io</a>
