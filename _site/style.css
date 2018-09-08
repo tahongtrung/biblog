@@ -78,12 +78,14 @@ code {
 
 html {
   font-size: 100%;
+  height: 100%;
 }
 
 body {
   font-family: monospace, serif;
   background: #fff;
   color: #333;
+  height: 100%;
 }
 
 .container {
@@ -306,6 +308,10 @@ nav a {
     margin: 0 10px;
     color: #4183C4;
   }
+}
+
+#main {
+  height: 100%;
 }
 
 .posts > .post {
