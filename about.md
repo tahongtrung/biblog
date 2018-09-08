@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-:no_entry: Tính tới thời điểm hiện tại <p id="res"></p>, mình:
+:no_entry: Tính tới thời điểm hiện tại <span id="res"></span>, mình:
 
 - Tên [Trung](https://www.facebook.com/tahongtrung){:target="_blank"}(DK) :virgo:
 - ~~Năm cuối PTITHCM, đang trả nợ môn (Toán rời rạc 2 - [3chỉ]) /*Chừng nào trả xong mình xóa dòng này đi^^*/~~
