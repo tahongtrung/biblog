@@ -3,6 +3,7 @@ layout: page
 title: Bitime
 permalink: /bitime/
 ---
+
 $$\frac{1}{n^{2}}$$
 $$ \begin{aligned} \dot{x} & = \sigma(y-x) \\ \dot{y} & = \rho x - y - xz \\ \dot{z} & = -\beta z + xy \end{aligned} $$
 $$a^2 + b^2 = c^2$$
@@ -93,5 +94,5 @@ Markdown | Less | Pretty
 | zebra stripes | are neat      |    $1 |
 
 
-<script src="https://gist.github.com/tahongtrung/bb645ff2bce1ce87f83539191922cd0d.js"></script>
+
 
