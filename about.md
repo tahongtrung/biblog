@@ -49,7 +49,7 @@ permalink: /about/
 
 <p align="center">
 	SPECIAL THANKS
-	<p>CHI BỘ FRT</p>
+	<p align="center">CHI BỘ FRT</p>
 </p>
 
 ### Contact me :email:
