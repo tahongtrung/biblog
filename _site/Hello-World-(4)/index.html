@@ -42,9 +42,32 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
     <link rel="alternate" type="application/rss+xml" title="bilog - log your mind" href="https://trung2nd.github.io/bilog/feed.xml" />
 
     <style>
-		#fb-root .fb_dialog{
-			top: 20pt !important;
+    	.fb-customerchat.fb_iframe_widget iframe {
+		    left:  auto;
+		    transform:  none;
 		}
+		.back-top {
+		    bottom:  100px;
+		}
+		@media only screen and (max-width: 480px) {
+		    .fb-customerchat.fb_iframe_widget
+		     iframe {
+		        max-width: 360px !important;
+		    }
+		    .fb-customerchat.fb_iframe_widget+.fb_dialog {
+		        right: 15px !important;
+		    }
+		}
+		@media only screen and (max-width: 320px) {
+		    .fb-customerchat.fb_iframe_widget
+		     iframe {
+		        right: 0 !important;
+		        max-width: 100% !important;
+		    }
+		}
+		/* #fb-root .fb_dialog{
+			top: 20pt !important;
+		} */
 		#myBtn {
 			display: none;
 			position: fixed;
