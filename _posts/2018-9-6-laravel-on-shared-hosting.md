@@ -2,6 +2,8 @@
 layout: post
 title: Laravel Shared Hosting
 excerpt: Vì đi support các bạn quá nhiều cái lỗi này và mình cũng có hứa là sẽ viết một bài để khỏi đi support dạo ....
+categories: [Web,Laravel]
+tags: laravel
 ---
 
 
