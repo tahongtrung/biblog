@@ -13,4 +13,4 @@ Users on Windows 10 v1607, can open Windows Registry, navigate to the following 
 
 create a new REG_DWORD, name it ShowSecondsInSystemClock and give it a value of 1.
 
->source: [](https://www.thewindowsclub.com/display-seconds-in-taskbar-clock-windows)
+>source: [https://www.thewindowsclub.com/display-seconds-in-taskbar-clock-windows](https://www.thewindowsclub.com/display-seconds-in-taskbar-clock-windows){:target="_blank"} 
