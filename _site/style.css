@@ -183,6 +183,7 @@ img {
 .date {
   font-style: italic;
   color: #666;
+  font-size: small;
 }
 
 ::-moz-selection {

@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Laravel Shared Hosting
-excerpt: Vì đi support các bạn quá nhiều cái lỗi này và mình cũng có hứa là sẽ viết một bài để khỏi đi support dạo nữa mà dạo này bận rộn quá nên chưa viết được nay thì viết bất chấp luôn.
+excerpt: Vì đi support các bạn quá nhiều cái lỗi này và mình cũng có hứa là sẽ viết một bài để khỏi đi support dạo ....
 ---
 
-## 000webhost.com
+
+<a target="_blank" href="https://www.kodementor.com/how-to-deploy-laravel-project-in-000webhost/">How to deploy laravel app on 000webhost</a>
 
 ![https://www.000webhost.com](https://i.imgur.com/JCzgVq8.png)
 

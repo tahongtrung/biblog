@@ -19,6 +19,7 @@ avatar: https://i.imgur.com/phSDNle.jpg
 #
 footer-v2: true
 show_excerpts: true
+excerpt_separator: "<!-- more -->"
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
