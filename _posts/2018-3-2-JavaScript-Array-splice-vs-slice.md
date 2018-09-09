@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Demo post 3
+title: JavaScript Array splice vs slice
+tags: [javascript,array]
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
