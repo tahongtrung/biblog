@@ -66,18 +66,18 @@ layout: default
 	<div class="paginate-group" style="text-align: center; padding-top:20px;">
 		<div class="pagination">
 		{% if paginator.next_page %}
-		<a class="w3-tag w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+		<a class="w3-tag w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Previous</a>
 		{% else %}
-		<span class="w3-tag w3-green" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older">Older</span>
+		<span class="w3-tag w3-green" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older">Previous</span>
 		{% endif %}
 		{% if paginator.previous_page %}
 		{% if paginator.page == 2 %}
-		  <a class="w3-tag w3-blue" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+		  <a class="w3-tag w3-blue" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer" href="{{ site.baseurl }}">Next</a>
 		{% else %}
-		  <a class="w3-tag w3-blue" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+		  <a class="w3-tag w3-blue" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Next</a>
 		{% endif %}
 		{% else %}
-		<span class="w3-tag w3-green" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer">Newer</span>
+		<span class="w3-tag w3-green" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer">Next</span>
 		{% endif %}
 		</div>
 	</div>
