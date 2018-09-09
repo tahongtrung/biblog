@@ -85,6 +85,7 @@ body {
   font-family: monospace, serif;
   background: #fff;
   color: #333;
+  line-height: 1.45;
 }
 
 .container {
