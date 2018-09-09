@@ -40,7 +40,7 @@ Nếu bạn đang xài VPS thì đừng làm theo cách này (đừng tự bóp 
 3. Phương pháp ăn liền gặp đâu đái đấy! nhầm,, xử đấy.
 	![](https://i.imgur.com/bifHN3c.png)
 	=> Thử gõ thêm `/public/` phía sau url xem nếu work thì copy 2 file `index.php` và `.htaccess` ra ngoài.
-	=> bonus: nếu lười có thể copy 2 file đấy trong này [naman-project](https://bitbucket.org/tahongtrung/naman/src/master/)
+	=> bonus: nếu lười có thể copy 2 file đấy ở này [.htaccess](https://gist.github.com/trung2nd/9f4cbe15ca971433fa4ba89b671eff3a) [index.php](https://gist.github.com/trung2nd/0b00b5f2753318558c7cd521fbbfb424)
 	
 	![](https://i.imgur.com/LJtSv7S.png)
 	=> Thêm `/public/` phía sau mà ra này thì chịu luôn. Nói chớ bật debug mode = true lên giùm cái chứ sao mà biết nó lỗi gì!
