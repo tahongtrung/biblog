@@ -21,8 +21,8 @@ layout: default
 	
   {% endfor %}
 	
-	<div class="paginate-group" style="text-align: center">
-		<!-- Pagination links 1 -->
+	<!-- <div class="paginate-group" style="text-align: center">
+		#paginate 1
 		<div class="pagination">
 			{% if paginator.previous_page %}
 				<a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous"><i class="far fa-arrow-alt-circle-left"></i></a>
@@ -36,7 +36,7 @@ layout: default
 				<span class="next "><i class="far fa-arrow-alt-circle-right"></i></span>
 			{% endif %}
 		</div>
-		<!-- Pagination links 2 -->
+		#paginate 2
 		{% if paginator.total_pages > 1 %}
 		<div class="pagination">
 			{% if paginator.previous_page %}
@@ -62,6 +62,22 @@ layout: default
 			{% endif %}
 		</div>
 		{% endif %}
+	</div> -->
+
+	<div class="pagination">
+	{% if paginator.next_page %}
+	<a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Older</a>
+	{% else %}
+	<span class="pagination-item older">Older</span>
+	{% endif %}
+	{% if paginator.previous_page %}
+	{% if paginator.page == 2 %}
+	  <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Newer</a>
+	{% else %}
+	  <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Newer</a>
+	{% endif %}
+	{% else %}
+	<span class="pagination-item newer">Newer</span>
+	{% endif %}
 	</div>
-	
 </div>
