@@ -15,6 +15,8 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
 JS can do everything but take care on how to handle exceptions in your code. Otherwise they go crazy like the panda above.
 </p>
 
+https://goweb.vn/kien-thuc-web-vi/thiet-ke-web/cach-tao-plugin-jquery-don-gian-nhat-de-hieu-nhat-603.html
+
 :smiley:
 
 :smiley:
