@@ -63,21 +63,22 @@ layout: default
 		</div>
 		{% endif %}
 	</div> -->
-
-	<div class="pagination">
-	{% if paginator.next_page %}
-	<a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Older</a>
-	{% else %}
-	<span class="pagination-item older">Older</span>
-	{% endif %}
-	{% if paginator.previous_page %}
-	{% if paginator.page == 2 %}
-	  <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Newer</a>
-	{% else %}
-	  <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Newer</a>
-	{% endif %}
-	{% else %}
-	<span class="pagination-item newer">Newer</span>
-	{% endif %}
+	<div class="paginate-group" style="text-align: center">
+		<div class="pagination">
+		{% if paginator.next_page %}
+		<a class="pagination-item older" href="{{ site.baseurl }}/bilog/page{{paginator.next_page}}">Older</a>
+		{% else %}
+		<span class="pagination-item older">Older</span>
+		{% endif %}
+		{% if paginator.previous_page %}
+		{% if paginator.page == 2 %}
+		  <a class="pagination-item newer" href="{{ site.baseurl }}/bilog/">Newer</a>
+		{% else %}
+		  <a class="pagination-item newer" href="{{ site.baseurl }}/bilog/page{{paginator.previous_page}}">Newer</a>
+		{% endif %}
+		{% else %}
+		<span class="pagination-item newer">Newer</span>
+		{% endif %}
+		</div>
 	</div>
 </div>
