@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-10T17:48:59+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Maximum execution time of 30 seconds exceeded</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/maximum-execution-time-of-30-seconds-exceeded/" rel="alternate" type="text/html" title="Maximum execution time of 30 seconds exceeded" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/maximum-execution-time-of-30-seconds-exceeded</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/maximum-execution-time-of-30-seconds-exceeded/">&lt;p&gt;this post
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://trung2nd.github.io/bilog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://trung2nd.github.io/bilog/" rel="alternate" type="text/html" /><updated>2018-09-11T01:32:47+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Đường dẫn thư mục tiếng việt</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/duong-dan-thu-muc-tieng-viet/" rel="alternate" type="text/html" title="Đường dẫn thư mục tiếng việt" /><published>2018-09-11T00:00:00+07:00</published><updated>2018-09-11T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/duong-dan-thu-muc-tieng-viet</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/duong-dan-thu-muc-tieng-viet/">&lt;p&gt;this post
+https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="folder" /><category term="fixbug" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry><entry><title type="html">Maximum execution time of 30 seconds exceeded</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/maximum-execution-time-of-30-seconds-exceeded/" rel="alternate" type="text/html" title="Maximum execution time of 30 seconds exceeded" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/maximum-execution-time-of-30-seconds-exceeded</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/maximum-execution-time-of-30-seconds-exceeded/">&lt;p&gt;this post
 https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="fixbug" /><category term="php" /><category term="error" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry><entry><title type="html">Laravel base tag</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-base-tag/" rel="alternate" type="text/html" title="Laravel base tag" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-base-tag</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-base-tag/">&lt;p&gt;this post
 https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="laravel" /><category term="base" /><category term="tag" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-in-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/laravel-in-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/laravel-in-shared-hosting/">&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.kodementor.com/how-to-deploy-laravel-project-in-000webhost/&quot;&gt;How to deploy laravel app on 000webhost&lt;/a&gt;&lt;/p&gt;
 
@@ -142,56 +143,4 @@ JS can do everything but take care on how to handle exceptions in your code. Oth
 
 &lt;p&gt;&lt;img src=&quot;https://trung2nd.github.io/bilog/images/config.png&quot; alt=&quot;_config.yml&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><summary type="html">Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</summary></entry><entry><title type="html">Depth-First Search (DFS)</title><link href="http://localhost:4000/https://trung2nd.github.io/bilog/depth-first-search-dfs/" rel="alternate" type="text/html" title="Depth-First Search (DFS)" /><published>2018-02-01T00:00:00+07:00</published><updated>2018-02-01T00:00:00+07:00</updated><id>http://localhost:4000/https://trung2nd.github.io/bilog/depth-first-search-dfs</id><content type="html" xml:base="http://localhost:4000/https://trung2nd.github.io/bilog/depth-first-search-dfs/">&lt;h3 id=&quot;bitime&quot;&gt;Bitime&lt;/h3&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\delta E_{x}}{\delta t} = \frac{\delta f(z-ct)}{\delta t} = f^{\prime}(z - ct)\Big(\frac{\delta(z-ct)}{\delta t}\Big) = -c*f^{\prime}(z - ct)&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\delta^2 E_{x}}{\delta t^2} = \frac{\delta}{\delta t} \Big(\frac{\delta Ex}{\delta t}\Big)= f^{\prime\prime}(z - ct)\Big(\frac{\delta(z-ct)}{\delta t}\Big) = c^2*f^{\prime\prime}(z - ct)&lt;/script&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Bitime&lt;/th&gt;
-      &lt;th&gt;T2&lt;/th&gt;
-      &lt;th&gt;T3&lt;/th&gt;
-      &lt;th&gt;T4&lt;/th&gt;
-      &lt;th&gt;T5&lt;/th&gt;
-      &lt;th&gt;T6&lt;/th&gt;
-      &lt;th&gt;T7&lt;/th&gt;
-      &lt;th&gt;CN&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Sáng&lt;/td&gt;
-      &lt;td&gt;xx&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;xx&lt;/td&gt;
-      &lt;td&gt;yy&lt;/td&gt;
-      &lt;td&gt;yy&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Chiều&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;xx&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;xx&lt;/td&gt;
-      &lt;td&gt;xx&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://trung2nd.github.io/bilog/images/config.png&quot; alt=&quot;_config.yml&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\nabla_\boldsymbol{x} J(\boldsymbol{x})&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\nabla_\boldsymbol{x} J(\boldsymbol{x})&lt;/script&gt;</content><author><name></name></author><summary type="html">Bitime</summary></entry></feed>
+&lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><summary type="html">Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</summary></entry></feed>
