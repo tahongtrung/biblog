@@ -30,7 +30,19 @@ code {
 html {
   font-size: 100%;
 }
+.animate-area	{ 
+	// width: 560px; 
+	// height: 100%;
+	background-image: url(https://davidwalsh.name/demo/bg-clouds.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
 
+	animation: animatedBackground 20s linear infinite;
+}
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
 .hero-bkg-animated {
   background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
   -webkit-animation: slide 20s linear infinite;
