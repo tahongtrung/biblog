@@ -73,7 +73,6 @@ code {
   line-height: 1.45;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 2px;
-  padding: 0px 4px;
   font-family: monospace,serif;
 }
 
@@ -381,13 +380,6 @@ footer {
 ::selection {
   color: #fff;
   background: #2ecc71;
-}
-
-code {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 2px;
-  padding: 2px 4px;
-  /*font-family:'Bitstream Vera Sans Mono','Courier', monospace;*/
 }
 
 .highlight .c {
