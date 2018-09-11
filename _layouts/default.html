@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bilog.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/bilog.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 	<script type="text/javascript" src="{{ site.baseurl }}/public/js/functions.js"></script>
   </head>
@@ -17,33 +17,31 @@
   <body class="hero-bkg-animated">
     <div class="wrapper-masthead animate-area">
       <div class="container">
+
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
           <nav>
-            <!-- <a href="{{ site.baseurl }}/">Bilog</a> -->
             <a href="{{ site.baseurl }}/bitime">bitime</a>
             <a href="{{ site.baseurl }}/price">chạy xô</a>
             <a href="{{ site.baseurl }}/about">about</a>
           </nav>
         </header>
+
       </div>
     </div>
 
     <div id="main" role="main" class="container">
       {{ content | emojify }}
-
     </div>
     <!-- animate-area  -->
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+            {% include svg-icons.html %}
         </footer>
       </div>
       
