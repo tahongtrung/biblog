@@ -45,7 +45,7 @@ html {
 }
 .hero-bkg-animated {
   background: #FFF url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
-  animation: slideLeft 20s linear infinite;
+  animation: slideLeft 10s linear infinite;
 }
 @keyframes slideLeft {
     from { background-position: 0 0; }
