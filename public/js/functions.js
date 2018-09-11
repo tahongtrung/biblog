@@ -37,5 +37,7 @@ function timeOfDay() {
         return bgImgs[3];
     }
 }
+const item = bgImgs[Math.floor(Math.random()*bgImgs.length)];
 //console.log(`Good ${timeOfDay()}!`);
-document.body.style.background = "#fff url(" + timeOfDay() + ")";
+//document.body.style.background = "#fff url(" + timeOfDay() + ")";
+document.body.style.background = "#fff url(" + item + ")";
