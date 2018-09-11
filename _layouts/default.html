@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/bilog.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-	<script type="text/javascript" src="{{ site.baseurl }}/public/js/functions.js"></script>
+	<script defer type="text/javascript" src="{{ site.baseurl }}/public/js/functions.js"></script>
   </head>
 
   <body class="hero-bkg-animated">
@@ -72,21 +72,6 @@
 		</div>
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-		
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-   
-    <script defer>
-		window.onscroll = function() {scrollFunction()};
-		function scrollFunction() {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-					document.getElementById("myBtn").style.display = "block";
-			} else {
-					document.getElementById("myBtn").style.display = "none";
-			}
-		}
-		function topFunction() {
-			$('html, body').animate({scrollTop:0}, 'slow');
-		}
-	</script>
   </body>
 </html>
