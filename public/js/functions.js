@@ -13,10 +13,10 @@ function topFunction() {
 
 
 let bgImgs = [
+    'https://i.imgur.com/h4k46HM.png',
+    'https://i.imgur.com/A1QPlWy.png',
     'https://i.imgur.com/lVDs2eF.png',
     'https://i.imgur.com/xwvDSTC.png',
-    'https://i.imgur.com/h4k46HM.png',
-    'https://i.imgur.com/A1QPlWy.png'
 ];
 function timeOfDay() {
     let hour = new Date().getHours();
