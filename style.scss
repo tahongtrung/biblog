@@ -33,7 +33,7 @@ html {
 .animate-area	{ 
 	//width: 560px; 
 	//height: 400px; 
-	background-image: url(https://i.imgur.com/nNvyCtI.png);
+	background-image: url(https://i.imgur.com/nNvyCtI.png) repeat 0 0;
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 
@@ -45,6 +45,7 @@ html {
 }
 .hero-bkg-animated {
   background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  animation: slide 20s linear infinite;
   -webkit-animation: slide 20s linear infinite;
 }
 
@@ -197,7 +198,7 @@ img {
   /* border-bottom: 1px solid #ddd; */
 	/* border-top: 1px solid #ddd; */
   // background-color: #159957;
-  // background-image: linear-gradient(120deg, #155799, #159957);
+  background-image: linear-gradient(120deg, #155799, #159957);
 }
 
 .masthead {
