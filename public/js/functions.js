@@ -13,6 +13,10 @@ function topFunction() {
 
 
 let bgImgs = [
+    'https://i.imgur.com/0D0axLJ.jpg',
+    'https://i.imgur.com/Ql3fNYJ.png',
+    'https://i.imgur.com/GGH0L44.png',
+    'https://i.imgur.com/pKBw43R.png',
     'https://i.imgur.com/h4k46HM.png',
     'https://i.imgur.com/A1QPlWy.png',
     'https://i.imgur.com/lVDs2eF.png',
