@@ -45,11 +45,9 @@ html {
 }
 .hero-bkg-animated {
   background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
-  animation: slide 20s linear infinite;
-  -webkit-animation: slide 20s linear infinite;
+  animation: slideLeft 20s linear infinite;
 }
-
-@-webkit-keyframes slide {
+@keyframes slideLeft {
     from { background-position: 0 0; }
     to { background-position: -400px 0; }
 }
