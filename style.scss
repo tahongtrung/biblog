@@ -44,7 +44,7 @@ html {
 	to { background-position: 100% 0; }
 }
 .hero-bkg-animated {
-  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  background: #FFF url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
   animation: slideLeft 20s linear infinite;
 }
 @keyframes slideLeft {
