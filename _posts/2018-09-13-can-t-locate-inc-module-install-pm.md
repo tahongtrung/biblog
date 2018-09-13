@@ -12,3 +12,6 @@ you may need to install the xxx module (What's the easiest way to install a miss
 
 https://stackoverflow.com/questions/65865/whats-the-easiest-way-to-install-a-missing-perl-module
 
+bonus tip: https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
+
+this guide set default pass for git bash push.sh
