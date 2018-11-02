@@ -2,7 +2,7 @@ now=$(date +"%T")
 day=$(date -d "$date1" +%A)
 DATE=$(date +%F)
 #`date +%Y-%m-%d`
-git add . && git commit -m "$USER update bilog $now $day $DATE" && git push origin master
+git add . && git commit -m "update bilog $now $day $DATE" && git push origin master
 
 # day=$(date -d "$date1" +%A)
 # echo $day #thursday

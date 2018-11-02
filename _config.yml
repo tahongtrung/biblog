@@ -23,10 +23,10 @@ show_excerpts: true
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: #trung2nd@gmail.com
+  email: #6269@gmail.com
   facebook: bilogvn
   flickr:
-  github: trung2nd
+  github: trungx
   instagram:
   linkedin:
   pinterest:
@@ -49,8 +49,8 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 
 #########for production############################
-url: 'https://trung2nd.github.io/bilog'
-baseurl: 'https://trung2nd.github.io/bilog'
+url: 'https://6269.github.io'
+baseurl: 'https://6269.github.io'
 paginate_path: '/page:num'
 ############ end for production ###################
 #paginate_path: '/bilog/page:num/'
