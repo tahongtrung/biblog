@@ -49,8 +49,8 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 
 #########for production############################
-url: 'https://6269.github.io'
-baseurl: 'https://6269.github.io'
+url: 'https://bilog.trung.ml'
+baseurl: 'https://bilog.trung.ml'
 paginate_path: '/page:num'
 ############ end for production ###################
 #paginate_path: '/bilog/page:num/'
