@@ -6,13 +6,14 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/bilog.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/bilog.css" /> -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous" /> -->
-    <script defer type="text/javascript" src="{{ site.baseurl }}/public/js/functions.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous" />
+    
   </head>
 
   <body class="hero-bkg-animated">
@@ -38,25 +39,32 @@
     <div id="main" role="main" class="container">
       {{ content | emojify }}
     </div>
+
     <!-- animate-area  -->
-    <div class="wrapper-footer">
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+        {% include svg-icons.html %}
+      </div>
+    </footer>
+    <!-- <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-            {% include svg-icons.html %}
+            
         </footer>
       </div>
 
-    </div>
+    </div> -->
 
     {% include analytics.html %}
-
-		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+		
 		<!-- <a href="https://github.com/you"><img style="position: fixed; bottom: 0; left: 0; border: 0;" src="https://i.imgur.com/muAUuRV.png" alt="Quảng cáo"></a> -->
 		<div id="fb-root"></div>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-		<div id="fb-root"></div>
 		<script defer>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
@@ -73,6 +81,8 @@
 		</div> -->
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- customize javascript function -->
+    <script defer type="text/javascript" src="{{ site.baseurl }}/public/js/functions.js"></script>
   </body>
 </html>
