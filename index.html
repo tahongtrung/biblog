@@ -3,67 +3,23 @@ layout: default
 ---
 
 <div class="posts">
-	
-	
-	
  	{% for post in paginator.posts %} 
-  
     <article class="post">
 		<!-- <i class="fab fa-tripadvisor icon-title"></i>  -->
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-			
       <div class="entry" style="margin-bottom: 20px;">
         {{ post.excerpt }}
       </div>
-			
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-	
   {% endfor %}
 	
-	<!-- <div class="paginate-group" style="text-align: center">
-		#paginate 1
-		<div class="pagination">
-			{% if paginator.previous_page %}
-				<a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous"><i class="far fa-arrow-alt-circle-left"></i></a>
-			{% else %}
-				<span class="previous"><i class="far fa-arrow-alt-circle-left"></i></span>
-			{% endif %}
-			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-			{% if paginator.next_page %}
-				<a href="{{ site.url }}{{ paginator.next_page_path }}" class="next"><i class="far fa-arrow-alt-circle-right"></i></a>
-			{% else %}
-				<span class="next "><i class="far fa-arrow-alt-circle-right"></i></span>
-			{% endif %}
-		</div>
-		#paginate 2
-		{% if paginator.total_pages > 1 %}
-		<div class="pagination">
-			{% if paginator.previous_page %}
-				<a href="/bilog{{paginator.previous_page_path }}"><i class="far fa-caret-square-left"></i></a>
-			{% else %}
-				<span><i class="far fa-caret-square-left"></i></span>
-			{% endif %}
-
-			{% for page in (1..paginator.total_pages) %}
-				{% if page == paginator.page %}
-					<em>{{ page }}</em>
-				{% elsif page == 1 %}
-					<a href="/bilog">{{ page }}</a>
-				{% else %}
-					<a href="/bilog/page{{ page }}">{{ page }}</a>
-				{% endif %}
-			{% endfor %}
-
-			{% if paginator.next_page %}
-				<a href="/bilog{{ paginator.next_page_path }}"><i class="far fa-caret-square-right"></i></a>
-			{% else %}
-				<span><i class="far fa-caret-square-right"></i></span>
-			{% endif %}
-		</div>
-		{% endif %}
-	</div> -->
-	<div class="paginate-group" style="text-align: center; padding-top:20px;">
+	<nav class="pagination is-rounded has-text-centered" role="navigation" aria-label="pagination">
+		<a class="pagination-previous">Previous</a>
+		<a class="pagination-next">Next page</a>
+	</nav>
+	<!-- to do make this for above -->
+	<!-- <div class="paginate-group" style="text-align: center; padding-top:20px;">
 		<div class="pagination">
 			{% if paginator.previous_page %}
 				{% if paginator.page == 2 %}
@@ -81,5 +37,5 @@ layout: default
 			<span class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older">Next</span>
 			{% endif %}
 		</div>
-	</div>
+	</div> -->
 </div>
