@@ -65,7 +65,7 @@ Dev đi fix bug là điều hiển nhiên!
 </p>
 
 <p align="center">
-<a href="//www.dmca.com/Protection/Status.aspx?ID=6863b21b-25e1-437a-9163-5db50f72c683" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=6863b21b-25e1-437a-9163-5db50f72c683"  alt="DMCA.com Protection Status" /></a><script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+
 </p>
 
 <p align="center">
