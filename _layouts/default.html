@@ -1,98 +1,181 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    {% include meta.html %}
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-    <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
-    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> -->
-    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/bilog.css" /> -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous" />
-    
-  </head>
+<html lang="en|vi">
+<head>
+	<title>bilog</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<style type="text/css">
+		body{
+			font-size: .75rem;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: #fafafa;">
+		<div class="container">
+			  	<div class="navbar-brand">
+				    <a class="navbar-item" href="https://bulma.io">
+				    	cxcx
+				    </a>
+				    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				      <span aria-hidden="true"></span>
+				      <span aria-hidden="true"></span>
+				      <span aria-hidden="true"></span>
+				    </a>
+			  	</div>
 
-  <body class="hero-bkg-animated">
-    <div class="wrapper-masthead animate-area">
-      <div class="container">
-        <section class="hero is-medium is-primary is-bold">
-            <div class="hero-body">
-              <div class="container">
-                <h1 class="title">
-                  bilog
-                </h1>
-                <h2 class="subtitle">
-                  log your mind
-                </h2>
-              </div>
-            </div>
-          </section>
-        <!-- <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          <nav>
-            <a href="{{ site.baseurl }}/bitime">bitime</a>
-            <a href="{{ site.baseurl }}/price">chạy xô</a>
-            <a href="{{ site.baseurl }}/about">about</a>
-          </nav>
-        </header> -->
+			  	<div id="navbarBasicExample" class="navbar-menu">
+				    <div class="navbar-start">
 
-      </div>
-    </div>
+				      <a class="navbar-item">
+				        Home
+				      </a>
 
-    <div id="main" role="main" class="container">
-      {{ content | emojify }}
-    </div>
+				      <div class="navbar-item has-dropdown is-hoverable">
+				        <a class="navbar-link">
+				          More
+				        </a>
+				        <div class="navbar-dropdown">
+				          <a class="navbar-item">
+				            Contact
+				          </a>
+				          <hr class="navbar-divider">
+				          <a class="navbar-item">
+				            Report an issue
+				          </a>
+				        </div>
+				      </div>
+				    </div>
+				</div>
+				</div>
+			</nav>
+	<section class="hero">
+			  <div class="hero-body">
+			    <div class="has-text-centered">
+			      <h1 class="title">
+			        bilog
+			      </h1>
+			      <h2 class="subtitle">
+			        log your mind
+			      </h2>
+			    </div>
+			  </div>
+			</section>
+		
+	
+	<div class="container">
+	
+	<div class="columns">
+	  	<div class="column is-three-fifths is-offset-one-fifth" style="background-color: none;">
+			
+	
+			
+			<nav class="navbar level" style="background-color: #fafafa;" role="navigation" aria-label="main navigation">
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info">Home</a>
+			  </p>
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info">Menu</a>
+			  </p>
+			  <p class="level-item has-text-centered">
+			    <img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;">
+			  </p>
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info">Reservations</a>
+			  </p>
+			  <p class="level-item has-text-centered">
+			    <a class="link is-info">Contact</a>
+			  </p>
+			</nav>
 
-    <!-- animate-area  -->
-    <!--need update css for button-->
-    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button> -->
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
+			
+
+		  	<div class="notification">
+		    	This container is <strong>centered</strong> on desktop.
+		  	</div>
+			
+			<div class="content is-small">
+				<div class="tile is-ancestor">
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+					      <p class="title" style="font-size: 1.75em;">Hello World</p>
+					      <p class="subtitle" style="font-size: 0.75rem;">What is up?</p>
+					    </article>
+					</div>
+				</div>
+			</div>	
+			<div class="content is-small">
+				<div class="tile is-ancestor">
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+					      <p class="title" style="font-size: 1.75em;">Hello World</p>
+					      <p class="subtitle" style="font-size: 0.75rem;">What is up?</p>
+					    </article>
+					</div>
+				</div>
+			</div>
+			<div class="content is-small">
+				<section class="section is-small">
+				<h2>Hello World</h2>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.
+				</section>
+			</div>
+				
+			<div class="tile is-ancestor">
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+				      <p class="title" style="font-size: 1.75em;">Hello World</p>
+				      <p class="subtitle" style="font-size: 0.75rem;">What is up?</p>
+				    </article>
+				</div>
+			</div>
+			<nav class="level">
+			  <div class="level-item has-text-centered">
+			    <div>
+			      <p class="heading">Tweets</p>
+			      <p class="title">3,456</p>
+			    </div>
+			  </div>
+			  <div class="level-item has-text-centered">
+			    <div>
+			      <p class="heading">Following</p>
+			      <p class="title">123</p>
+			    </div>
+			  </div>
+			  <div class="level-item has-text-centered">
+			    <div>
+			      <p class="heading">Followers</p>
+			      <p class="title">456K</p>
+			    </div>
+			  </div>
+			  <div class="level-item has-text-centered">
+			    <div>
+			      <p class="heading">Likes</p>
+			      <p class="title">789</p>
+			    </div>
+			  </div>
+			</nav>
+			<br/>
+		  	
+
+	  	</div>
+	</div>
+	</div>
+	<footer class="footer">
+	  <div class="content has-text-centered is-small">
+	  	<p>
+	    	<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />
+	    	
+	      
+	    	
           <a href="//www.dmca.com/Protection/Status.aspx?ID=6863b21b-25e1-437a-9163-5db50f72c683" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=6863b21b-25e1-437a-9163-5db50f72c683"  alt="DMCA.com Protection Status" /></a>
-          <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+          <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script><br />
+          <strong>[bilog]</strong> by <a href="https://trung.ml">[trungx]</a>. The source code is licensed
+	      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
         </p>
-        <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
-        {% include svg-icons.html %}
-      </div>
-    </footer>
-    <!-- <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-        </footer>
-      </div>
-    </div> -->
-    {% include analytics.html %}
-		<!-- <a href="https://github.com/you"><img style="position: fixed; bottom: 0; left: 0; border: 0;" src="https://i.imgur.com/muAUuRV.png" alt="Quảng cáo"></a> -->
-		<div id="fb-root"></div>
-		<script defer>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		<!-- <div class="fb-customerchat"
-			minimized="true"
-		  	attribution=setup_tool
-		  	page_id="1882114255141464"
-		  	theme_color="#67b868">
-		</div> -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <!-- customize javascript function -->
-    <script defer type="text/javascript" src="{{ site.baseurl }}/public/js/functions.js"></script>
-  </body>
+	  </div>
+	</footer>
+
+	
+</body>
 </html>
