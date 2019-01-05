@@ -19,6 +19,9 @@
         max-width: 100% !important;
     }
 } */
+body{
+    font-size: .75rem;
+}
 #fb-root .fb_dialog{
     top: 20pt !important;
 } 
