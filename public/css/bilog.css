@@ -23,7 +23,7 @@
 input[type="radio"], .tab-pane { display: none; }
 
 /* the magic */
-#pic:checked ~ .tab-content > .content-anonymous,
+#anonymous:checked ~ .tab-content > .content-anonymous,
 #pic:checked ~ .tab-content > .content-pic,
 #music:checked ~ .tab-content > .content-music,
 #video:checked ~ .tab-content > .content-video,
