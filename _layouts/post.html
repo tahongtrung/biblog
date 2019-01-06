@@ -8,29 +8,27 @@ layout: default
   {% if page.tags %} | 
   {% for tag in page.tags %}
     <span class="tag is-dark"><a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}"> {{ tag }}</a></span>
-    <!-- <a class="w3-tag w3-blue" style="padding:2px;border-radius: 2px;" href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag"><i class="fas fa-tag"></i>{{ tag }}</a> -->
   {% endfor %}
   {% endif %}
   {{ content }}
-  <div class="date">
+  <div class="has-text-right">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   <br/>
 
 
-<!-- Tab panes -->
-<div class="tab-content">
-  <div class="tab-pane content-pic">My Pictures</div>
-  <div class="tab-pane content-music">My Music</div>
-  <div class="tab-pane content-video">My Videos</div>
-  <div class="tab-pane content-doc">My Documents</div>
-</div>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane content-pic">My Pictures</div>
+    <div class="tab-pane content-music">My Music</div>
+    <div class="tab-pane content-video">My Videos</div>
+    <div class="tab-pane content-doc">My Documents</div>
+  </div>
   <!-- Nav tabs -->
   <input type="radio" id="pic" checked name="nav-tab">
   <input type="radio" id="music" name="nav-tab">
   <input type="radio" id="video" name="nav-tab">
   <input type="radio" id="doc" name="nav-tab">
-
   <div class="tabs" style="font-size:0.75rem;">
     <ul>
       <li style="margin-top: 0 !important;"><label for="pic"><a>Github</a></label></li>
@@ -39,7 +37,6 @@ layout: default
       <li style="margin-top: 0 !important;"><label for="doc"><a>Twitter</a></label></li>
     </ul>
   </div>
-
   <!-- Tab panes -->
   <div class="tab-content">
     <div class="tab-pane content-pic">
@@ -56,15 +53,14 @@ layout: default
       <div class="fb-comments" data-href="" data-width="100%" data-numposts="5"></div>
     </div>
     <div class="tab-pane content-video">
-      My Videos
+      Comment bằng tài khoản gmail và lưu trữ comment trên firebase
     </div>
     <div class="tab-pane content-doc">
-      My Documents
+        Comment bằng tài khoản twitter và lưu trữ comment trên twitter
     </div>
   </div>
- 
+
   </section>
-  
 </div>
 
 
