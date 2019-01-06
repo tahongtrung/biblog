@@ -23,23 +23,23 @@
 input[type="radio"], .tab-pane { display: none; }
 
 /* the magic */
-
+#pic:checked ~ .tab-content > .content-anonymous,
 #pic:checked ~ .tab-content > .content-pic,
 #music:checked ~ .tab-content > .content-music,
 #video:checked ~ .tab-content > .content-video,
 #doc:checked ~ .tab-content > .content-doc {
   display: block;
 }
-#facebook body{
+/* #facebook body{
     font-size: .75rem !important;
     font-family: 'Segoe UI' !important;
-}
+} */
 body{
     font-size: .75rem;
 }
-#fb-root .fb_dialog{
+/* #fb-root .fb_dialog{
     top: 20pt !important;
-} 
+}  */
 #myBtn {
     display: none;
     position: fixed;
