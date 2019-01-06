@@ -23,7 +23,7 @@
 input[type="radio"], .tab-pane { display: none; }
 
 /* the magic */
-.li-bilog{
+li.li-bilog{
     margin-top: 0 !important;
 }
 #music:checked{
