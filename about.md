@@ -54,7 +54,9 @@ permalink: /about/
 
 ### Contact me :email:
 
-[trung2nd@gmail.com](mailto:trung2nd@gmail.com)
+<p align="center">
+[dev@trung.ml](mailto:dev@trung.ml)
+</p>
 
 <p align="center" class="pre">
 Trăm năm Kiều vẫn là Kiều,<br/>
