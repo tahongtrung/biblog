@@ -19,6 +19,15 @@
         max-width: 100% !important;
     }
 } */
+input[type="radio"], .tab-pane { display: none; }
+
+/* the magic */
+#pic:checked ~ .tab-content > .content-pic,
+#music:checked ~ .tab-content > .content-music,
+#video:checked ~ .tab-content > .content-video,
+#doc:checked ~ .tab-content > .content-doc {
+  display: block;
+}
 body{
     font-size: .75rem;
 }
