@@ -30,6 +30,10 @@ input[type="radio"], .tab-pane { display: none; }
 #doc:checked ~ .tab-content > .content-doc {
   display: block;
 }
+#facebook body{
+    font-size: .75rem !important;
+    font-family: 'Segoe UI' !important;
+}
 body{
     font-size: .75rem;
 }
