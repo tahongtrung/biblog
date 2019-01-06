@@ -19,6 +19,7 @@
         max-width: 100% !important;
     }
 } */
+
 input[type="radio"], .tab-pane { display: none; }
 
 /* the magic */
