@@ -23,6 +23,12 @@
 input[type="radio"], .tab-pane { display: none; }
 
 /* the magic */
+.li-bilog{
+    margin-top: 0 !important;
+}
+#music:checked{
+    border-bottom-color: #363636;
+}
 #pic:checked ~ .tab-content > .content-pic,
 #music:checked ~ .tab-content > .content-music,
 #video:checked ~ .tab-content > .content-video,
