@@ -29,7 +29,7 @@ layout: default
 		<a class="pagination-next">Next page</a>
 	</nav> -->
 	<!-- to do make this for above -->
-	<!-- <div class="paginate-group" style="text-align: center; padding-top:20px;">
+	<div class="paginate-group" style="text-align: center; padding-top:20px;">
 		<div class="pagination">
 			{% if paginator.previous_page %}
 				{% if paginator.page == 2 %}
@@ -47,10 +47,31 @@ layout: default
 			<span class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older">Next</span>
 			{% endif %}
 		</div>
-	</div> -->
-	<div class="control is-grouped pg has-text-centered">
-		
-		<a class="button is-link"><i class="fa fa-chevron-left"></i></a> 
-		<a class="button is-link"><i class="fa fa-chevron-right"></i></a>
 	</div>
+	<div class="control is-grouped pg has-text-centered">
+			{% if paginator.previous_page %}
+			{% if paginator.page == 2 %}
+				<a class="button is-link" href="{{ site.baseurl }}"><i class="fa fa-chevron-left"></i></a> 
+				<!-- <a class="w3-button w3-green" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer" href="{{ site.baseurl }}">Prev</a> -->
+			{% else %}
+			<a class="button is-link" href="{{ site.baseurl }}/page{{paginator.previous_page}}"><i class="fa fa-chevron-left"></i></a> 
+				<!-- <a class="w3-button w3-green" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Prev</a> -->
+			{% endif %}
+		{% else %}
+		<a class="button is-link" href="#"><i class="fa fa-chevron-left"></i></a>
+		<!-- <span class="w3-button w3-green" style="background-color:#155799 !important; padding: 3px;" class="pagination-item newer">Prev</span> -->
+		{% endif %}
+		
+		{% if paginator.next_page %}
+		<a class="button is-link" href="{{ site.baseurl }}/page{{paginator.next_page}}"><i class="fa fa-chevron-right"></i></a>
+		<a class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Next</a>
+		{% else %}
+		<a class="button is-link" href=""><i class="fa fa-chevron-right"></i></a>
+		<!-- <span class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older">Next</span> -->
+		{% endif %}
+
+		<!-- <a class="button is-link" href="{{ site.baseurl }}"><i class="fa fa-chevron-left"></i></a> 
+		<a class="button is-link" href=""><i class="fa fa-chevron-right"></i></a> -->
+	</div>
+	<br/>
 </div>
