@@ -2,6 +2,7 @@
 layout: post
 title: Downloader On Linux
 tags: [ubuntu,linux]
+excerpt: 1. Xtreme Download Manager (XDMan)
 ---
 
 1. Xtreme Download Manager (XDMan)
