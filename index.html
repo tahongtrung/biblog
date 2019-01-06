@@ -16,20 +16,8 @@ layout: default
 	</div>
   
   {% endfor %}
-	  <!-- <article class="post">
-		<i class="fab fa-tripadvisor icon-title"></i> 
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="entry" style="margin-bottom: 20px;">
-        {{ post.excerpt }}
-      </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article> -->
-	<!-- <nav class="pagination is-rounded has-text-centered" role="navigation" aria-label="pagination">
-		<a class="pagination-previous">Previous</a>
-		<a class="pagination-next">Next page</a>
-	</nav> -->
-	<!-- to do make this for above -->
-	<div class="paginate-group" style="text-align: center; padding-top:20px;">
+	  
+	<!-- <div class="paginate-group" style="text-align: center; padding-top:20px;">
 		<div class="pagination">
 			{% if paginator.previous_page %}
 				{% if paginator.page == 2 %}
@@ -47,7 +35,7 @@ layout: default
 			<span class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older">Next</span>
 			{% endif %}
 		</div>
-	</div>
+	</div> -->
 	<div class="control is-grouped pg has-text-centered">
 			{% if paginator.previous_page %}
 			{% if paginator.page == 2 %}
@@ -64,7 +52,7 @@ layout: default
 		
 		{% if paginator.next_page %}
 		<a class="button is-link" href="{{ site.baseurl }}/page{{paginator.next_page}}"><i class="fa fa-chevron-right"></i></a>
-		<a class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Next</a>
+		<!-- <a class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Next</a> -->
 		{% else %}
 		<a class="button is-link" href=""><i class="fa fa-chevron-right"></i></a>
 		<!-- <span class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older">Next</span> -->
