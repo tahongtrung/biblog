@@ -19,7 +19,7 @@ layout: default
   <input type="radio" id="music" name="nav-tab">
   <input type="radio" id="video" name="nav-tab">
   <input type="radio" id="doc" name="nav-tab">
-  
+
   <div class="tabs">
     <ul>
       <li><label for="pic"><a>Github</a></label></li>
@@ -32,16 +32,20 @@ layout: default
   <!-- Tab panes -->
   <div class="tab-content">
     <div class="tab-pane content-pic">
-      <script src="https://utteranc.es/client.js"
-        repo="trungx/blog-comments"
-        branch="master"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-      </script>
+      <section class="section">
+        <script src="https://utteranc.es/client.js"
+          repo="trungx/blog-comments"
+          branch="master"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </section>
     </div>
-    <div class="tab-pane content-music">My Music</div>
+    <div class="tab-pane content-music">
+      <div class="fb-comments" data-href="" data-width="100%" data-numposts="5"></div>
+    </div>
     <div class="tab-pane content-video">My Videos</div>
     <div class="tab-pane content-doc">My Documents</div>
   </div>
@@ -71,4 +75,4 @@ layout: default
 	
 </article> -->
 
-<div class="fb-comments" data-href="" data-width="100%" data-numposts="5"></div>
+
