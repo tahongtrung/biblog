@@ -3,7 +3,7 @@
 <head>
 	<title>{{ post.title | 'bilog'  }}</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-	<link rel="canonical" href="{{ post.title | site.baseurl }}">
+	<link rel="canonical" href="{{ site.baseurl }}">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/bilog.css" />
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
@@ -170,8 +170,8 @@
 		<script type="text/javascript">
 			var rootRef = firebase.database().ref();
 			var postComments = rootRef.child('postComments');
-			var link = $("link[rel='canonical']").attr("href");
-			var pathkey = decodeURI(link.replace(new RegExp('\\/|\\.', 'g'),"_")); //this link of post should unique
+			//var link = $("link[rel='canonical']").attr("href");
+			var pathkey = window.location.href ;//decodeURI(link.replace(new RegExp('\\/|\\.', 'g'),"_")); //this link of post should unique
 			var postRef = postComments.child(pathkey);
 			$("#comment").submit(function() {
 					postRef.push().set({
