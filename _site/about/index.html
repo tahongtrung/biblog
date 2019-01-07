@@ -371,7 +371,7 @@ THE END
 		}(document, 'script', 'facebook-jssdk'));</script>
 		<script defer type="text/javascript" src="https://bilog.trung.ml/public/js/functions.js"></script>
 
-		<script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.2/firebase-database.js"></script>
 		<script>
 			// Initialize Firebase
 			var config = {
@@ -388,7 +388,7 @@ THE END
 			var rootRef = firebase.database().ref();
 			var postComments = rootRef.child('postComments');
 			var link = $("link[rel='canonical']").attr("href");
-			var pathkey = decodeURI(link.replace(new RegExp('\\/|\\.', 'g'),"_"));
+			var pathkey = decodeURI(link.replace(new RegExp('\\/|\\.', 'g'),"_")); //this link of post should unique
 			var postRef = postComments.child(pathkey);
 			$("#comment").submit(function() {
 					postRef.push().set({
