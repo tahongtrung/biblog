@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en|vi">
 <head>
-	<title>bilog</title>
+	<title>{{ post.title | 'bilog'  }}</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-	<link rel="canonical" href="{{ site.baseurl }}">
+	<link rel="canonical" href="{{ post.title | site.baseurl }}">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/bilog.css" />
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
