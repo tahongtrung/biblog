@@ -417,5 +417,35 @@ to create linebreak tags</p>
 			};
 			firebase.initializeApp(config);
 		</script>
+		<script type="text/javascript">
+			$("#comment").submit(function() {
+					postRef.push().set({
+							name: $("#name").val(),
+							message: $("#message").val(),
+							md5Email: md5($("#email").val()),
+							postedAt: firebase.database.ServerValue.TIMESTAMP
+				});
+			
+				$("input[type=text], textarea").val("");
+				return false;
+			});
+			postRef.on("child_added", function(snapshot) {
+					var newComment = snapshot.val();
+					
+					// Markdown into HTML
+					var converter = new showdown.Converter();
+					converter.setFlavor('github');
+					var markedMessage = converter.makeHtml(newComment.message);
+					
+					// HTML format
+					var html = "<div class='comment'>";
+					html += "<h4>" + newComment.name + "</h4>";
+					html += "<div class='profile-image'><img src='https://www.gravatar.com/avatar/" + newComment.md5Email + "?s=100&d=retro'/></div>";
+					html += "<span class='date'>" + jQuery.timeago(newComment.postedAt) + "</span>"
+					html += "<p>" + markedMessage  + "</p></div>";
+					
+					$("#comments-container").prepend(html);
+			});
+			</script>
 </body>
 </html>
