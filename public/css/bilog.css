@@ -1,6 +1,5 @@
-.active-tab{
-    border-bottom-color: #363636;
-    color: #363636
+a.active-tab{
+    border-bottom: 363636 1px solid;
 }
 /* .fb-customerchat.fb_iframe_widget iframe {
     left:  auto;
