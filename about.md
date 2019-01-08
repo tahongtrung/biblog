@@ -53,14 +53,14 @@ permalink: /about/
 </div>
 <br/>
 
-<p align="center">
+<div align="center">
 	<div class="control">
 		<div class="tags has-addons">
 			<span class="tag is-dark">contact me</span>
 			<span class="tag is-info"><a href="mailto:dev@trung.ml" style="color:#FFF;">dev@trung.ml</a></span>
 		</div>
 	</div>
-</p>	
+</div>	
 
 <br/>
 <div class="content is-small">
