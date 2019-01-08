@@ -17,13 +17,15 @@ permalink: /bitime/
 - [x] Math formula
 - [x] Theme v2
 - [x] Embeded code
-- [x] Live chat (Messenger)
+- [x] Live chat (Messenger) [disable]
 - [x] About page
-- [ ] Tag
+- [X] Tag
 - [ ] Archive
 - [ ] Searching
-- [ ] Theme v3
+- [X] Theme v3
 - [ ] Remake UI pagination
+- [ ] Update jekyll to version 3.8.5 (current version 3.7.4)
+- [ ] Tag
 
 ### Test environment
 
