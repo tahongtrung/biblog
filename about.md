@@ -46,10 +46,11 @@ permalink: /about/
 
 {% include_relative people.md %}
 
-<p align="center">
-	SPECIAL THANKS
-	<p align="center">CHI BỘ FRT</p>
-</p>
+<div class="notification has-text-centered">
+	SPECIAL THANKS<br/>
+	CHI BỘ FRT
+</div>
+
 
 ### Contact me :email:
 
@@ -58,16 +59,13 @@ permalink: /about/
 
 
 
-
-<div class="content is-small has-text-center">
+<div class="content is-small">
 	<div class="tile is-ancestor">
 		<div class="tile is-parent">
 			<article class="tile is-child box">
-					<p class="subtitle" style="font-size: 0.75rem;">
-						<center>
+					<p class="subtitle has-text-centered" style="font-size: 0.75rem;">
 							Trăm năm Kiều vẫn là Kiều,<br/>
-						Dev đi fix bug là điều hiển nhiên!
-						</center>
+						Dev đi fix bug là điều hiển nhiên!						
 					</p>
 			</article>
 		</div>
@@ -83,3 +81,4 @@ permalink: /about/
 <p align="center">
 THE END
 <p>
+<br/>
