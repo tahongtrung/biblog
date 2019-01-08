@@ -64,8 +64,10 @@ permalink: /about/
 		<div class="tile is-parent">
 			<article class="tile is-child box">
 					<p class="subtitle" style="font-size: 0.75rem;">
-						Trăm năm Kiều vẫn là Kiều,<br/>
+						<center>
+							Trăm năm Kiều vẫn là Kiều,<br/>
 						Dev đi fix bug là điều hiển nhiên!
+						</center>
 					</p>
 			</article>
 		</div>
@@ -74,7 +76,7 @@ permalink: /about/
 
 
 <p align="center">
- 	Made with <i class="fas fa-heart"></i> by <a href="https://jekyllrb.com" target="_blank">jekyll</a>
+ 	made with <i class="fas fa-heart"></i> by <a href="https://jekyllrb.com" target="_blank">jekyll</a>
 </p>
 
 <p align="center">
