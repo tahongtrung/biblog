@@ -4,18 +4,20 @@ layout: default
 <div class="content is-small">
   <section class="section is-small">
   <h2>{{ page.title }}</h2>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {% if page.tags %} | 
-  {% for tag in page.tags %}
-    <div class="control">
-      <div class="tags has-addons">
-        <span class="tag"><i class="fas fa-tag"></i></span>
-          <a class="tag is-success" href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a>
+  <div id="meta" class="field is-grouped is-grouped-multiline">
+    <span class="post-date">{{ page.date | date_to_string }}</span>
+    {% if page.tags %} | 
+    {% for tag in page.tags %}
+      <div class="control">
+        <div class="tags has-addons">
+          <span class="tag"><i class="fas fa-tag"></i></span>
+            <a class="tag is-success" href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a>
+        </div>
       </div>
-    </div>
-    <!-- <span class="tag is-dark"><a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}"> {{ tag }}</a></span> -->
-  {% endfor %}
-  {% endif %}
+      <!-- <span class="tag is-dark"><a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}"> {{ tag }}</a></span> -->
+    {% endfor %}
+    {% endif %}
+  </div>
   {{ content }}
   <div class="has-text-right">
     Written on {{ page.date | date: "%B %e, %Y" }}
