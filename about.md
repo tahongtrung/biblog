@@ -51,14 +51,18 @@ permalink: /about/
 	SPECIAL THANKS<br/>
 	CHI BỘ FRT
 </div>
+<br/>
 
+<div class="has-text-centered">
+	<div class="control">
+		<div class="tags has-addons">
+			<span class="tag is-dark">contact me</span>
+			<span class="tag is-info"><a href="mailto:dev@trung.ml">dev@trung.ml</a></span>
+		</div>
+	</div>
+</div>		
 
-### Contact me 
-
-[dev@trung.ml](mailto:dev@trung.ml)
-
-
-
+<br/>
 <div class="content is-small">
 	<div class="tile is-ancestor">
 		<div class="tile is-parent">
