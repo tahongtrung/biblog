@@ -57,12 +57,24 @@ permalink: /about/
 [dev@trung.ml](mailto:dev@trung.ml)
 
 
-<p align="center" class="pre">
-Trăm năm Kiều vẫn là Kiều,<br/>
-Dev đi fix bug là điều hiển nhiên!
-</p>
+
+
+<div class="content is-small has-text-center">
+	<div class="tile is-ancestor">
+		<div class="tile is-parent">
+			<article class="tile is-child box">
+					<p class="subtitle" style="font-size: 0.75rem;">
+						Trăm năm Kiều vẫn là Kiều,<br/>
+						Dev đi fix bug là điều hiển nhiên!
+					</p>
+			</article>
+		</div>
+	</div>
+</div>
+
+
 <p align="center">
- 	Made with <i style="color:red">❤</i> by <a href="https://jekyllrb.com" target="_blank">jekyll</a>
+ 	Made with <i class="fas fa-heart"></i> by <a href="https://jekyllrb.com" target="_blank">jekyll</a>
 </p>
 
 <p align="center">
