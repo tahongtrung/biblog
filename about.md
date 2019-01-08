@@ -46,14 +46,14 @@ permalink: /about/
 
 {% include_relative people.md %}
 
+<br/>
 <div class="notification has-text-centered">
 	SPECIAL THANKS<br/>
 	CHI BỘ FRT
 </div>
 
 
-### Contact me :email:
-
+### Contact me 
 
 [dev@trung.ml](mailto:dev@trung.ml)
 
