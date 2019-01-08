@@ -5,17 +5,18 @@ title: Tags
 
 <div class="tags-expo">
   <div class="tags-expo-list">
-    {% for tag in site.tags %}
     <div id="meta" class="field is-grouped is-grouped-multiline">
+    {% for tag in site.tags %}
+    
       <div class="control">
         <div class="tags has-addons">
           <span class="tag"><i class="fas fa-tag"></i></span>
             <a class="tag is-dark" href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
         </div>
       </div>
-    </div>
     <!-- <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a> -->
     {% endfor %}
+    </div>
   </div>
   <hr/>
   <div class="tags-expo-section">
