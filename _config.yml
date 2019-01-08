@@ -1,36 +1,23 @@
-#
-# This file contains configuration flags to customize your site
-#
-
-# Name of your site (displayed in the header)
 name: bilog
-# Tile of defaul
 title: bilog
-# Short bio or description (displayed in the header)
 description: log your mind
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-#https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-
-#avatar: https://raw.githubusercontent.com/tahongtrung/bilog/master/avt.png?token=AIk2nrD3IC1GGGzlcYZ-rIZoPE6-eWTkks5bDtjawA%3D%3D
 avatar: https://i.imgur.com/phSDNle.jpg
-#
-# Flags below are optional
-#
+
 footer-v2: true
 show_excerpts: true
 #excerpt_separator: "<!-- more -->"
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: #6269@gmail.com
+  email: dev@trung.ml
   facebook: bilogvn
   flickr:
   github: trungx
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: rss
   twitter: tahongtrung
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
