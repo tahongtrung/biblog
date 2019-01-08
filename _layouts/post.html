@@ -23,8 +23,8 @@ layout: default
   <input type="radio" id="doc" name="nav-tab">
   <input type="radio" id="anonymous" name="nav-tab">
   <div class="tabs" style="font-size:0.75rem;">
-    <ul>
-      <li style="margin-top: 0 !important;"><label for="pic"><a>Facebook</a></label></li>
+    <ul onclick="commentActiveTab(event)">
+      <li style="margin-top: 0 !important;" class="active-tab"><label for="pic"><a>Facebook</a></label></li>
       <li style="margin-top: 0 !important;"><label for="music"><a>Github</a></label></li>
       <li style="margin-top: 0 !important;"><label for="video"><a>Anonymous</a></label></li>
       <li style="margin-top: 0 !important;"><label for="doc"><a>Twitter</a></label></li>
@@ -134,11 +134,17 @@ layout: default
 			firebase.initializeApp(config);
 		</script>
     <script type="text/javascript">
-      
+      function commentActiveTab(e) {
+        var elems = document.querySelector(".active-tab");
+        if(elems !==null){
+          elems.classList.remove("active-tab");
+        }
+        e.target.className = "active-tab";
+      }
+
 			var rootRef = firebase.database().ref();
 			var postComments = rootRef.child('postComments');
-			//var link = $("link[rel='canonical']").attr("href");
-			var pathkey = window.location.pathname ;//decodeURI(link.replace(new RegExp('\\/|\\.', 'g'),"_")); //this link of post should unique
+			var pathkey = window.location.pathname ;
 			var postRef = postComments.child(pathkey);
 			$("#comment").submit(function() {
 					postRef.push().set({

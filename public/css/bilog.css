@@ -1,3 +1,7 @@
+.active-tab{
+    border-bottom-color: #363636;
+    color: #363636
+}
 /* .fb-customerchat.fb_iframe_widget iframe {
     left:  auto;
     transform:  none;
