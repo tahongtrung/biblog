@@ -76,13 +76,10 @@ permalink: /about/
 
 
 <p align="center">
- 	made with <i class="fas fa-heart"></i> by <a href="https://jekyllrb.com" target="_blank">jekyll</a>
+ 	made with <span style="color:#c0392b;"><i class="fas fa-heart"></i></span> by <a href="https://jekyllrb.com" target="_blank">jekyll</a>
 </p>
 
-<p align="center">
-
-</p>
-
+<br/>
 <p align="center">
 THE END
 <p>
