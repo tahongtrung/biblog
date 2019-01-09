@@ -52,19 +52,19 @@ layout: default
 		
 		{% if paginator.next_page %}
 		<a class="button is-small" href="{{ site.baseurl }}/page{{paginator.next_page}}">
+			<span>Next</span>
 			<span class="icon is-small">
 				<i class="fas fa-angle-right"></i>
 			</span>
-			<span>Next</span>
 		</a>
 		<!-- <a class="button is-link" href="{{ site.baseurl }}/page{{paginator.next_page}}"><i class="fa fa-chevron-right"></i></a> -->
 		<!-- <a class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Next</a> -->
 		{% else %}
 		<a class="button is-small" disabled>
+			<span>Next</span>
 			<span class="icon is-small">
 				<i class="fas fa-angle-right"></i>
 			</span>
-			<span>Next</span>
 		</a>
 		<!-- <a class="button is-link" href=""><i class="fa fa-chevron-right"></i></a> -->
 		<!-- <span class="w3-button w3-blue" style="background-color:#159957 !important; padding: 3px;" class="pagination-item older">Next</span> -->
