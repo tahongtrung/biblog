@@ -8,6 +8,9 @@
 a.active-tab{
     border-bottom: #363636 1px solid !important;
 }
+a.navbar-item:hover{
+    border-bottom: #363636 1px solid !important;
+}
 /* .fb-customerchat.fb_iframe_widget iframe {
     left:  auto;
     transform:  none;
