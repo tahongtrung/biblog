@@ -54,6 +54,9 @@ permalink: /about/
 <br/>
 
 <div class="has-text-centered">
+	<a href="https://bulma.io">
+		<img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+	</a>
 	<section class="section">
 		<div class="github-card" data-github="trungx" data-width="400" data-height="317" data-theme="medium"></div>
 		<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
