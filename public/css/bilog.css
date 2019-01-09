@@ -11,6 +11,10 @@ a.active-tab{
 a.navbar-item:hover{
     border-bottom: #363636 1px solid !important;
 }
+.heart-pulse{
+    -webkit-animation: heart-pulse 1s infinite; 
+    animation: heart-pulse 1s infinite;
+}
 /* .fb-customerchat.fb_iframe_widget iframe {
     left:  auto;
     transform:  none;
