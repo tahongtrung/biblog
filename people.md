@@ -129,4 +129,5 @@
 [Phan Tịnh Giang](#) - 
 [Quỳnh Liên](#) - 
 [Nguyễn Duy Trung](#) - 
+[Phạm Ngọc Lịnh](#) - 
 [yourname](https://github.com/trungx/bilog/edit/master/people.md){:target="_blank"}
