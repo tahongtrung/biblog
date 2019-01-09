@@ -14,10 +14,21 @@ Các bạn xem chi tiết ở studio của team mình nhá!..
 
 ### Hosted by wwww.trung.ml
 
+[Home](https://trung.ml)
+
+
 [Tiểu Trư](https://tieutru.trung.ml)
 
 
 [N2K18](https://n2k18.trung.ml)
+
+
+[Trang Cá Vang](https://trangcavang.trung.ml)
+
+
+[Sim](https://sim.trung.ml)
+
+
 
 
 ..
