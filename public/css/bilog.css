@@ -1,9 +1,9 @@
 /*overried bulma css*/
 .columns{
-    margin:0 !important;
+    margin: 0;
 }
 .column{
-    padding: 0 !important;
+    padding: 0;
 }
 a.active-tab{
     border-bottom: #363636 1px solid !important;
