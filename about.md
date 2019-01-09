@@ -53,7 +53,11 @@ permalink: /about/
 </div>
 <br/>
 
-<div align="center">
+<div class="has-text-centered">
+	<section class="section">
+		<div class="github-card" data-github="trungx" data-width="400" data-height="317" data-theme="medium"></div>
+		<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+	</section>
 	<div class="control">
 		<div class="tags has-addons">
 			<span class="tag is-dark">contact me</span>
