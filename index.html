@@ -18,7 +18,7 @@ layout: default
   {% endfor %}
 	  
 	
-	<div class="button">
+  <div class="control is-grouped pg has-text-centered">
 		{% if paginator.previous_page %}
 			{% if paginator.page == 2 %}
 				<a class="button is-small" href="{{ site.baseurl }}">
@@ -74,4 +74,5 @@ layout: default
 		<a class="button is-link" href=""><i class="fa fa-chevron-right"></i></a> -->
 	</div>
 	<br/>
+	<div class="is-divider" data-content="OR"></div>
 </div>
