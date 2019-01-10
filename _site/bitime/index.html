@@ -6,8 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="https://bilog.trung.ml/style.css" />
 	<link rel="stylesheet" type="text/css" href="https://bilog.trung.ml/public/css/bilog.css" />
 	<link rel="icon" href="https://bilog.trung.ml/images/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fakeLoader.js/1.1.0/fakeLoader.min.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fakeLoader.js/1.1.0/fakeLoader.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.7.0/js/md5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.5.4/jquery.timeago.min.js"></script>
@@ -16,20 +19,8 @@
 	<!-- <script src="/assets/js/showdown-xss-filter.js"></script> -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/js-xss/0.3.3/xss.min.js"></script> -->
 	<!-- <script src="https://raw.github.com/leizongmin/js-xss/master/dist/xss.js"></script> -->
-	<script type="text/javascript">
-		body = document.getElementsByTagName('body')[0];
-		function myFunction() {
-			myVar = setTimeout(showPage, 3000);
-		}
-
-		function showPage() {
-			document.getElementById("pageloader").style.display = "none";
-			body.style.display = "block";
-		}
-	</script>
 </head>
-<body onload="myFunction()">
-	<div class="wrapper">
+<body>
 	<header style="background-color:whitesmoke !important;">
 		<div class="container">
 			<div class="columns">
@@ -373,9 +364,7 @@ to create linebreak tags</p>
 			</p>
 		</div>
 	</footer>
-
 	<div id="fb-root"></div>
-	</div>
 	<script defer>(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
 		if (d.getElementById(id)) return;
@@ -386,6 +375,8 @@ to create linebreak tags</p>
 
 	<script defer src="https://bilog.trung.ml/public/js/functions.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	<div class="pageloader" style="display:block;"><span class="title">Pageloader</span></div>	
+	<script type="text/javascript">
+		$("#fakeloader").fakeLoader();
+	</script>	
 </body>
 </html>
