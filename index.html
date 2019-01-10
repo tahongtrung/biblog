@@ -17,20 +17,20 @@ layout: default
   	{% endfor %}
 	
   	<div class="control is-grouped pg has-text-centered">
-		{% if paginator.previous_page %}
+		{% if paginator.Prev_page %}
 			{% if paginator.page == 2 %}
 				<a class="button is-small" href="{{ site.baseurl }}">
 					<span class="icon is-small">
 						<i class="fas fa-angle-left"></i>
 					</span>
-					<span>Previous</span>
+					<span>Prev</span>
 				</a>
 			{% else %}
-			<a class="button is-small" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
+			<a class="button is-small" href="{{ site.baseurl }}/page{{paginator.Prev_page}}">
 				<span class="icon is-small">
 					<i class="fas fa-angle-left"></i>
 				</span>
-				<span>Previous</span>
+				<span>Prev</span>
 			</a>
 			{% endif %}
 		{% else %}
@@ -38,7 +38,7 @@ layout: default
 			<span class="icon is-small">
 				<i class="fas fa-angle-left"></i>
 			</span>
-			<span>Previous</span>
+			<span>Prev</span>
 		</a>
 		{% endif %}
 		{% if paginator.next_page %}
