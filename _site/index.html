@@ -16,8 +16,20 @@
 	<!-- <script src="/assets/js/showdown-xss-filter.js"></script> -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/js-xss/0.3.3/xss.min.js"></script> -->
 	<!-- <script src="https://raw.github.com/leizongmin/js-xss/master/dist/xss.js"></script> -->
+	<script type="text/javascript">
+		body = document.getElementsByTagName('body')[0];
+		function myFunction() {
+			myVar = setTimeout(showPage, 3000);
+		}
+
+		function showPage() {
+			document.getElementById("pageloader").style.display = "none";
+			body.style.display = "block";
+		}
+	</script>
 </head>
-<body>
+<body onload="myFunction()">
+	<div class="wrapper">
 	<header style="background-color:whitesmoke !important;">
 		<div class="container">
 			<div class="columns">
@@ -188,7 +200,7 @@ https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-bas
 	</footer>
 
 	<div id="fb-root"></div>
-
+	</div>
 	<script defer>(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
 		if (d.getElementById(id)) return;
@@ -199,6 +211,6 @@ https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-bas
 
 	<script defer src="https://bilog.trung.ml/public/js/functions.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	<div class="pageloader"><span class="title">Pageloader</span></div>	
+	<div class="pageloader" style="display:block;"><span class="title">Pageloader</span></div>	
 </body>
 </html>
