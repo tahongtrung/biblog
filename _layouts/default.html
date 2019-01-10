@@ -6,8 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/css/bilog.css" />
 	<link rel="icon" href="{{ site.baseurl }}/images/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fakeLoader.js/1.1.0/fakeLoader.min.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fakeLoader.js/1.1.0/fakeLoader.min.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fakeLoader.js/1.1.0/fakeLoader.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
@@ -114,7 +114,13 @@
 	<script defer src="{{ site.baseurl }}/public/js/functions.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<script type="text/javascript">
-		$("#fakeloader").fakeLoader();
+		$("#fakeloader").fakeLoader({
+			timeToHide:1200, //Time in milliseconds for fakeLoader disappear
+			zIndex:"999",//Default zIndex
+			spinner:"spinner1",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+			bgColor:"#2ecc71", //Hex, RGB or RGBA colors
+			//imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
+		});
 	</script>	
 </body>
 </html>
