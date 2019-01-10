@@ -39,10 +39,8 @@ permalink: /about/
 	        month = '' + (d.getMonth() + 1),
 	        day = '' + d.getDate(),
 	        year = d.getFullYear();
-
 	    if (month.length < 2) month = '0' + month;
 	    if (day.length < 2) day = '0' + day;
-
 	    return [day , month, year].join('/');
 	}
 	document.getElementById('res').innerHTML =  formatDate() ;
@@ -58,6 +56,10 @@ permalink: /about/
 <br/>
 
 <div class="has-text-centered">
+	<a href="//www.dmca.com/Protection/Status.aspx?ID=7f3d60ed-b93e-4949-bf9e-dd11b130791b" title="DMCA.com Protection Status" class="dmca-badge"> 
+		<img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=7f3d60ed-b93e-4949-bf9e-dd11b130791b"  alt="DMCA.com Protection Status" />
+	</a>
+	<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script><br/>
 	<a href="https://bulma.io">
 		<img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
 	</a>
