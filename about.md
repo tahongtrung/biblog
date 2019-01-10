@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
+<div class="notification has-text-centered">
+	<i class="fab fa-github"></i> inital commit April 6th 2018 
+</div>
+
 :no_entry: Tính tới thời điểm hiện tại <span id="res"></span>, mình:
 
 - Tên [Trung](https://www.facebook.com/tahongtrung){:target="_blank"}(DK) :virgo:
