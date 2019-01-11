@@ -46,7 +46,7 @@ permalink: /about/
 	document.getElementById('res').innerHTML =  formatDate() ;
 </script>
 
-{% include_relative people.md %}
+{% include people.md %}
 
 <br/>
 <div class="notification has-text-centered">
