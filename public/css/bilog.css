@@ -1,4 +1,7 @@
 /*overried bulma css*/
+a {
+    color:#c0392b !important;
+}
 .columns{
     margin: 0;
 }
