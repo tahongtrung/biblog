@@ -82,6 +82,9 @@ layout: default
 			firebase.initializeApp(config);
 		</script>
     <script type="text/javascript">
+      //generate a new image avatar for anonymous
+      $("#random-img").attr("src",`https://www.gravatar.com/avatar/${md5(Date.now())}?s=100&d=retro`);
+      
       function commentActiveTab(e) {
         var elems = document.querySelector(".active-tab");
         if(elems !==null){
@@ -112,7 +115,7 @@ layout: default
           let htmlx = `<div class="bd-snippet-preview">
                 <article class="media">
                   <figure class="media-left">
-                    <p class="image is-64x64">
+                    <p class="image is-64x64">Date.now()
                       <img src="https://www.gravatar.com/avatar/${newComment.md5Email}?s=100&d=retro">
                     </p>
                   </figure>
