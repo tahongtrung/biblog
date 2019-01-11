@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-01-11T15:05:17+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-01-11T15:36:01+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
   &lt;li&gt;Xtreme Download Manager (XDMan)&lt;/li&gt;
   &lt;li&gt;DownThemAll&lt;/li&gt;
   &lt;li&gt;MultiGet&lt;/li&gt;
@@ -313,36 +313,20 @@ JS can do everything but take care on how to handle exceptions in your code. Oth
 
 &lt;p&gt;:smiley:&lt;/p&gt;
 
-&lt;p&gt;:smiley:&lt;/p&gt;</content><author><name></name></author><category term="prototype" /><category term="javascript" /><summary type="html">Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</summary></entry><entry><title type="html">Gõ tiếng việt trên linux</title><link href="http://localhost:4000/https://bilog.trung.ml/go-tieng-viet-tren-linux/" rel="alternate" type="text/html" title="Gõ tiếng việt trên linux" /><published>2018-03-04T00:00:00+07:00</published><updated>2018-03-04T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/go-tieng-viet-tren-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/go-tieng-viet-tren-linux/">&lt;p&gt;Post này nhằm giới thiệu các bộ gõ phổ biến trên linux.&lt;/p&gt;
+&lt;p&gt;:smiley:&lt;/p&gt;</content><author><name></name></author><category term="prototype" /><category term="javascript" /><summary type="html">Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</summary></entry><entry><title type="html">Vietnamese typing on linux</title><link href="http://localhost:4000/https://bilog.trung.ml/vietnamese-typing-on-linux/" rel="alternate" type="text/html" title="Vietnamese typing  on linux" /><published>2018-03-04T00:00:00+07:00</published><updated>2018-03-04T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/vietnamese-typing-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/vietnamese-typing-on-linux/">&lt;p&gt;AIM: To introduce about vietnamese input engine&lt;/p&gt;
 
-&lt;p&gt;Cách cài đặt và sử dụng các bạn tử tìm trên mạng hoặc trang chủ tài liệu của chính nó.&lt;/p&gt;
+&lt;p&gt;The tutorial about how to install, use … you can find on its home page.&lt;/p&gt;
 
 &lt;h3 id=&quot;ibus-unieky&quot;&gt;ibus-unieky&lt;/h3&gt;
-&lt;p&gt;Trang chủ: &lt;a href=&quot;https://github.com/vn-input/ibus-unikey&quot; target=&quot;_blank&quot;&gt;https://github.com/vn-input/ibus-unikey&lt;/a&gt;&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-	&lt;img src=&quot;https://i.imgur.com/9kj3VYF.png&quot; /&gt;
-&lt;/div&gt;
+&lt;p&gt;Home: &lt;a href=&quot;https://github.com/vn-input/ibus-unikey&quot; target=&quot;_blank&quot;&gt;https://github.com/vn-input/ibus-unikey&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;ibus-bogo&quot;&gt;ibus-bogo&lt;/h3&gt;
-&lt;p&gt;Trang chủ: &lt;a href=&quot;https://ibus-bogo.readthedocs.io/&quot; target=&quot;_blank&quot;&gt;https://ibus-bogo.readthedocs.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-	&lt;img src=&quot;https://i.imgur.com/kX8k6B0.png&quot; /&gt;
-&lt;/div&gt;
+&lt;p&gt;Home: &lt;a href=&quot;https://ibus-bogo.readthedocs.io/&quot; target=&quot;_blank&quot;&gt;https://ibus-bogo.readthedocs.io/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;ibus-teni&quot;&gt;ibus-teni&lt;/h3&gt;
-&lt;p&gt;Trang chủ: &lt;a href=&quot;https://github.com/teni-ime/ibus-teni&quot; target=&quot;_blank&quot;&gt;https://github.com/teni-ime/ibus-teni&lt;/a&gt;&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-	&lt;img src=&quot;https://i.imgur.com/T6ZLwi7.png&quot; /&gt;
-&lt;/div&gt;
+&lt;p&gt;Home: &lt;a href=&quot;https://github.com/teni-ime/ibus-teni&quot; target=&quot;_blank&quot;&gt;https://github.com/teni-ime/ibus-teni&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;gotiengviet-trần-kỳ-nam&quot;&gt;GoTiengViet (Trần Kỳ Nam)&lt;/h3&gt;
-&lt;p&gt;Trang chủ: &lt;a href=&quot;http://www.trankynam.com/gotv/&quot; target=&quot;_blank&quot;&gt;http://www.trankynam.com/gotv/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Home: &lt;a href=&quot;http://www.trankynam.com/gotv/&quot; target=&quot;_blank&quot;&gt;http://www.trankynam.com/gotv/&lt;/a&gt;&lt;/p&gt;
 
-&lt;div style=&quot;text-align: center;&quot;&gt;
-	&lt;img src=&quot;https://i.imgur.com/6QA9Q5T.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Các bạn có bộ gõ nào hay thì bổ sung giúp mình nhé!&lt;/p&gt;</content><author><name></name></author><category term="linux" /><category term="ubuntu" /><summary type="html">Post này nhằm giới thiệu các bộ gõ phổ biến trên linux.</summary></entry></feed>
+&lt;p&gt;If you know someone else pls update by leave a comment on this post, thanks!&lt;/p&gt;</content><author><name></name></author><category term="linux" /><category term="ubuntu" /><summary type="html">AIM: To introduce about vietnamese input engine</summary></entry></feed>
