@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-01-11T14:04:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-01-11T14:15:58+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
   &lt;li&gt;Xtreme Download Manager (XDMan)&lt;/li&gt;
   &lt;li&gt;DownThemAll&lt;/li&gt;
   &lt;li&gt;MultiGet&lt;/li&gt;
@@ -19,8 +19,118 @@ https://github.com/trustly/dbix-pg-callfunction/issues/1&lt;/p&gt;
 
 &lt;p&gt;bonus tip: https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git&lt;/p&gt;
 
-&lt;p&gt;this guide set default pass for git bash push.sh&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">zcbxzcnzc fix this bug here: https://github.com/trustly/dbix-pg-callfunction/issues/1</summary></entry><entry><title type="html">Install Request Tracker 4 in ubuntu</title><link href="http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu/" rel="alternate" type="text/html" title="Install Request Tracker 4 in ubuntu" /><published>2018-09-12T00:00:00+07:00</published><updated>2018-09-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu/">&lt;p&gt;how to install???
-guide here: https://gist.github.com/trung2nd/f6533ec6a91b080e9951e04bead60b5a&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">how to install??? guide here: https://gist.github.com/trung2nd/f6533ec6a91b080e9951e04bead60b5a</summary></entry><entry><title type="html">Failed to enable APR_TCP_DEFER_ACCEPT</title><link href="http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept/" rel="alternate" type="text/html" title="Failed to enable APR_TCP_DEFER_ACCEPT" /><published>2018-09-12T00:00:00+07:00</published><updated>2018-09-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept/">&lt;p&gt;https://github.com/Microsoft/WSL/issues/1953&lt;/p&gt;
+&lt;p&gt;this guide set default pass for git bash push.sh&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">zcbxzcnzc fix this bug here: https://github.com/trustly/dbix-pg-callfunction/issues/1</summary></entry><entry><title type="html">Install Request Tracker 4 in ubuntu</title><link href="http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu/" rel="alternate" type="text/html" title="Install Request Tracker 4 in ubuntu" /><published>2018-09-12T00:00:00+07:00</published><updated>2018-09-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu/">&lt;h1 id=&quot;aim&quot;&gt;Aim&lt;/h1&gt;
+
+&lt;p&gt;Our aim is to install &lt;a href=&quot;https://bestpractical.com/rt/&quot;&gt;Request Tracker (RT)&lt;/a&gt; 4.4.2 on &lt;a href=&quot;https://debian.org/&quot;&gt;Debian GNU/Linux&lt;/a&gt; 8.6 with less pain&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This won’t work with Debian GNU/Linux 9.x.&lt;/p&gt;
+
+&lt;h1 id=&quot;problems&quot;&gt;Problems&lt;/h1&gt;
+
+&lt;p&gt;At the time of writing…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There is &lt;strong&gt;no&lt;/strong&gt; nice and clean setup guide&lt;/li&gt;
+  &lt;li&gt;There is &lt;strong&gt;no&lt;/strong&gt; Debian package for RT’s 4.4 branch&lt;/li&gt;
+  &lt;li&gt;RT’s README and its Makefile “help” are controversial&lt;/li&gt;
+  &lt;li&gt;A typical installation often leads to Perl’s CPAN dependency hell&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;preparation&quot;&gt;Preparation&lt;/h1&gt;
+
+&lt;p&gt;Install Debian GNU/Linux 8.6 or higher.&lt;/p&gt;
+
+&lt;p&gt;Install needed distribution packages:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{.bash}&quot;&gt;sudo apt update
+sudo apt install build-essential apache2 libapache2-mod-fcgid mariadb-server-10.0 mariadb-client-10.0 libssl-dev libexpat1-dev
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;get-it-done&quot;&gt;Get it done&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{.bash}&quot;&gt;wget https://download.bestpractical.com/pub/rt/release/rt-4.4.2.tar.gz
+tar xzvf rt-4.4.2.tar.gz
+cd rt-4.4.2
+./configure --with-web-user=www-data --with-web-group=www-data
+sudo /usr/bin/perl -MCPAN -e shell # Quit with CTRL+D
+sudo make testdeps
+sudo make fixdeps # Press ENTER when needed
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Test your installation with the built-in Web server: &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo /opt/rt4/sbin/rt-server --port 8080&lt;/code&gt;. Hit CTRL-C to stop the process.&lt;/p&gt;
+
+&lt;h1 id=&quot;configure-apache-web-server&quot;&gt;Configure Apache Web server&lt;/h1&gt;
+
+&lt;p&gt;We choose Apache2 Web Server and FastCGId. RT will be available under the URL &lt;code class=&quot;highlighter-rouge&quot;&gt;/rt&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Edit RT’s local configuration file &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt/rt4/etc/RT_SiteConfig.d/myissues.pm&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{.perl}&quot;&gt;# sudo nano /opt/rt4/etc/RT_SiteConfig.d/myissues.pm
+Set($WebPath, &quot;/rt&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create a new VirtualHost:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sudo nano /etc/apache2/sites-available/myissues.conf
+&amp;lt;VirtualHost *:80&amp;gt;
+        ServerName myissues.example.com
+        ServerAdmin webmaster@localhost
+
+        DocumentRoot /var/www/html
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+        AddDefaultCharset UTF-8
+
+        ScriptAlias /rt /opt/rt4/sbin/rt-server.fcgi/
+
+        &amp;lt;Location /rt&amp;gt;
+                Require all granted
+                Options +ExecCGI
+                AddHandler fcgid-script fcgi
+        &amp;lt;/Location&amp;gt;
+&amp;lt;/VirtualHost&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Replace default VirtualHost with your new one and restart Apache Web server:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{.bash}&quot;&gt;sudo a2dissite 000-default
+sudo a2ensite myissues
+sudo systemctl restart apache2.service
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Open &lt;code class=&quot;highlighter-rouge&quot;&gt;http://myissues.example.com/rt/&lt;/code&gt; (or something similar) in a Web browser to test everything runs smoothly.&lt;/p&gt;
+
+&lt;h1 id=&quot;re-work&quot;&gt;Re-work&lt;/h1&gt;
+
+&lt;p&gt;From RT’s README:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Set up users, groups, queues, scrips and access control&lt;/li&gt;
+  &lt;li&gt;Set up automated recurring tasks (cronjobs)&lt;/li&gt;
+  &lt;li&gt;Configure the RT email gateway&lt;/li&gt;
+  &lt;li&gt;Set up full text search&lt;/li&gt;
+  &lt;li&gt;Set up automatic backups&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;…and keep your operating system clean and updated.&lt;/p&gt;
+
+&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
+
+&lt;p&gt;Update/upgrade RT! Oh my gosh…&lt;/p&gt;
+
+&lt;h1 id=&quot;sources-that-helped-me&quot;&gt;Sources that helped me&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RT’s &lt;a href=&quot;https://docs.bestpractical.com/rt/4.4.2/README.html&quot;&gt;README&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RT’s &lt;a href=&quot;https://docs.bestpractical.com/rt/4.4.2/web_deployment.html#mod_fastcgi&quot;&gt;Web deployment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CPAN Issue Tracker: &lt;a href=&quot;https://rt.cpan.org/Public/Bug/Display.html?id=105189&quot;&gt;Bug #105189 for Net-SSLeay: Net::SSLeay fails to build on perl-5.22.0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Stack Overflow: &lt;a href=&quot;http://stackoverflow.com/questions/9693031/how-to-install-xmlparser-without-expat-devel&quot;&gt;How to install XML::Parser without expat-devel?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;note here: https://gist.github.com/trungx/f6533ec6a91b080e9951e04bead60b5a&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">Aim</summary></entry><entry><title type="html">Failed to enable APR_TCP_DEFER_ACCEPT</title><link href="http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept/" rel="alternate" type="text/html" title="Failed to enable APR_TCP_DEFER_ACCEPT" /><published>2018-09-12T00:00:00+07:00</published><updated>2018-09-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept/">&lt;p&gt;https://github.com/Microsoft/WSL/issues/1953&lt;/p&gt;
 
 &lt;p&gt;Add the following line to the end of the /etc/apache2/apache2.conf file:&lt;/p&gt;
 
