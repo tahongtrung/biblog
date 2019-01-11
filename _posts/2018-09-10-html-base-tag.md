@@ -9,6 +9,7 @@ tags: [html,base,tag]
 The `<base>` tag in HTML is a relatively little known element, having become a fully fledged part of HTML5 quite recently. It enables you to do two things:
 1. Set any URL you choose as the base for all relative URLs.
 2. Set default link targets.
+
 ###The Base-ics
 The `<base>` element is defined in the `<head>` section and you can only use it once per document. You should place it as early as possible in your head section so you can use it from that point on. Its two possible attributes are `href` and `target`. You can use either of these attributes alone or both at once.
 
@@ -20,6 +21,7 @@ Let's say you have a site which stores all its images and CSS in a folder named 
     <base href="http://www.myepicsite.com/assets/">
 </head>
 ```
+
 This would then allow you to load in any images or CSS like this:
 ```html
 <head>
@@ -30,6 +32,7 @@ This would then allow you to load in any images or CSS like this:
     <img src="image01.png" />
 </body>
 ```
+
 The link to `style.css` would resolve to `http://www.myepicsite.com/assets/style.css` and `image01.png` would load from `http://www.myepicsite.com/assets/image01.png`.
 
 Example 2: Internal Page URLs
@@ -43,10 +46,12 @@ You might set your base URL like this:
 ```html
 <base href="http://thisrocks.com/app/">
 ```
+
 From there whenever you wanted to link from one internal page to another you could simply use:
 ```html
 <a href="anotherpage.htm">LINK</a>
 ```
+
 This link would resolve to `http://thisrocks.com/app/anotherpage.htm`.
 
 Example 3: Default Link Target
@@ -55,6 +60,7 @@ You can also use `<base>` to set the default target for all links on your page. 
 ```html
 <base target="_blank">
 ```
+
 ...any link that didn't explicitly set its own target would open in a new window. You can use the target attribute with or without an accompanying href attribute.
 
 This functionality could potentially be useful for content loaded in via an iFrame, as you would be able to automatically have all links therein targeted to the parent frame.
@@ -87,7 +93,9 @@ However, if you're building a static HTML site `<base>` can be very helpful. Thi
 If you have a good idea what your project's content will be, and its use of URLs and links is fully under your control, you might find the `<base>` tag saves you a lot of time.
 
 Read more about `<base>` at the W3C wiki and HTML5 spec:
+
 -[http://www.w3.org/wiki/HTML/Elements/base](http://www.w3.org/wiki/HTML/Elements/base)
+
 -[http://www.w3.org/TR/html5/document-metadata.html#the-base-element](http://www.w3.org/TR/html5/document-metadata.html#the-base-element)
 
-[Link gốc](https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag--cms-21399){target='_blank'}
+[Link gốc](https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag--cms-21399)
