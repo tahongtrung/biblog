@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="content is-small">
-  <section class="section is-small">
-  <h2>{{ page.title }}</h2>
+  <section class="section is-small" style="padding:0">
+  <h2 style="font-size:2rem">{{ page.title }}</h2>
   <div id="meta" class="field is-grouped is-grouped-multiline">
     <span class="post-date">{{ page.date | date_to_string }} &nbsp;</span>
     {% if page.tags %}  | &nbsp;
@@ -84,7 +84,7 @@ layout: default
     <script type="text/javascript">
       //generate a new image avatar for anonymous
       $("#random-img").attr("src",`https://www.gravatar.com/avatar/${md5(Date.now())}?s=100&d=retro`);
-      
+
       function commentActiveTab(e) {
         var elems = document.querySelector(".active-tab");
         if(elems !==null){
@@ -115,7 +115,7 @@ layout: default
           let htmlx = `<div class="bd-snippet-preview">
                 <article class="media">
                   <figure class="media-left">
-                    <p class="image is-64x64">Date.now()
+                    <p class="image is-64x64">
                       <img src="https://www.gravatar.com/avatar/${newComment.md5Email}?s=100&d=retro">
                     </p>
                   </figure>
