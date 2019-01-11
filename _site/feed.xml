@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-01-11T11:09:20+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-01-11T13:48:06+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
   &lt;li&gt;Xtreme Download Manager (XDMan)&lt;/li&gt;
   &lt;li&gt;DownThemAll&lt;/li&gt;
   &lt;li&gt;MultiGet&lt;/li&gt;
@@ -26,8 +26,89 @@ guide here: https://gist.github.com/trung2nd/f6533ec6a91b080e9951e04bead60b5a&lt
 
 &lt;p&gt;AcceptFilter http none&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="fixbug" /><category term="linux" /><summary type="html">https://github.com/Microsoft/WSL/issues/1953</summary></entry><entry><title type="html">Đường dẫn thư mục tiếng việt</title><link href="http://localhost:4000/https://bilog.trung.ml/duong-dan-thu-muc-tieng-viet/" rel="alternate" type="text/html" title="Đường dẫn thư mục tiếng việt" /><published>2018-09-11T00:00:00+07:00</published><updated>2018-09-11T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/duong-dan-thu-muc-tieng-viet</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/duong-dan-thu-muc-tieng-viet/">&lt;p&gt;this post
 https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="folder" /><category term="fixbug" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry><entry><title type="html">Maximum execution time of 30 seconds exceeded</title><link href="http://localhost:4000/https://bilog.trung.ml/maximum-execution-time-of-30-seconds-exceeded/" rel="alternate" type="text/html" title="Maximum execution time of 30 seconds exceeded" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/maximum-execution-time-of-30-seconds-exceeded</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/maximum-execution-time-of-30-seconds-exceeded/">&lt;p&gt;this post
-https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="fixbug" /><category term="php" /><category term="error" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry><entry><title type="html">Laravel base tag</title><link href="http://localhost:4000/https://bilog.trung.ml/laravel-base-tag/" rel="alternate" type="text/html" title="Laravel base tag" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/laravel-base-tag</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/laravel-base-tag/">&lt;p&gt;this post
-https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="laravel" /><category term="base" /><category term="tag" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting/">&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.kodementor.com/how-to-deploy-laravel-project-in-000webhost/&quot;&gt;How to deploy laravel app on 000webhost&lt;/a&gt;&lt;/p&gt;
+https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="fixbug" /><category term="php" /><category term="error" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry><entry><title type="html">Html base tag</title><link href="http://localhost:4000/https://bilog.trung.ml/html-base-tag/" rel="alternate" type="text/html" title="Html base tag" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/html-base-tag</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/html-base-tag/">&lt;p&gt;/by Kezz Bracey20 Jun 2014/&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag in HTML is a relatively little known element, having become a fully fledged part of HTML5 quite recently. It enables you to do two things:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Set any URL you choose as the base for all relative URLs.&lt;/li&gt;
+  &lt;li&gt;Set default link targets.
+###The Base-ics
+The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; element is defined in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section and you can only use it once per document. You should place it as early as possible in your head section so you can use it from that point on. Its two possible attributes are &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;target&lt;/code&gt;. You can use either of these attributes alone or both at once.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Example 1: Asset Loading Shortcut&lt;/p&gt;
+
+&lt;p&gt;Let’s say you have a site which stores all its images and CSS in a folder named “assets”. You might define your &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag like so:&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;base&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.myepicsite.com/assets/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This would then allow you to load in any images or CSS like this:&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;base&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.myepicsite.com/assets/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;style.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image01.png&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The link to &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; would resolve to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.myepicsite.com/assets/style.css&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;image01.png&lt;/code&gt; would load from &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.myepicsite.com/assets/image01.png&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Example 2: Internal Page URLs&lt;/p&gt;
+
+&lt;p&gt;You might set your base URL like this:&lt;/p&gt;
+
+&lt;p&gt;What if you have a top level domain which redirects to something like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://thisrocks.com/app/&lt;/code&gt; and all internal links need to include &lt;code class=&quot;highlighter-rouge&quot;&gt;app/&lt;/code&gt; in their URLs.&lt;/p&gt;
+
+&lt;p&gt;You might set your base URL like this:&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;base&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://thisrocks.com/app/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;From there whenever you wanted to link from one internal page to another you could simply use:&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherpage.htm&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;LINK&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This link would resolve to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://thisrocks.com/app/anotherpage.htm&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Example 3: Default Link Target&lt;/p&gt;
+
+&lt;p&gt;You can also use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; to set the default target for all links on your page. If you were to use:&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;base&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;…any link that didn’t explicitly set its own target would open in a new window. You can use the target attribute with or without an accompanying href attribute.&lt;/p&gt;
+
+&lt;p&gt;This functionality could potentially be useful for content loaded in via an iFrame, as you would be able to automatically have all links therein targeted to the parent frame.&lt;/p&gt;
+
+&lt;p&gt;###Drawbacks&lt;/p&gt;
+
+&lt;p&gt;While the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; url can be handy, its drawbacks center around the fact that after defining it once you’re stuck with it. You can only use it in a single way and it will then affect all URLs. Wherever you don’t want to use the defaults set in your &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag you have to specifically override them.&lt;/p&gt;
+
+&lt;p&gt;Should you use it to resolve to your &lt;code class=&quot;highlighter-rouge&quot;&gt;assets&lt;/code&gt; folder as we did above, and you later wanted to link from one page of your site to another, you couldn’t do so with the common HTML of &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;page.html&quot;&amp;gt;Page&amp;lt;/a&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is because with the base URL being &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.myepicsite.com/assets/&lt;/code&gt; your visitors would be sent to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.myepicsite.com/assets/page.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;As such you would have to override your &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag settings by using the absolute URL instead, i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;http://www.myepicsite.com/page.html&quot;&amp;gt;Page&amp;lt;/a&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In-Page Anchors
+When using &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; you can also run into problems linking to in-page anchors.&lt;/p&gt;
+
+&lt;p&gt;Normally, a link such as &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;#top&quot;&amp;gt;Back to Top&amp;lt;/a&amp;gt;&lt;/code&gt; would keep you on the same page but skip to the location of an element bearing &lt;code class=&quot;highlighter-rouge&quot;&gt;id=&quot;top&quot;&lt;/code&gt;, e.g. it would resolve to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://thisrocks.com/app/article.html#top&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;However if you’re using a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag with an &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; attribute you’d instead be sent to the base URL with &lt;code class=&quot;highlighter-rouge&quot;&gt;#top&lt;/code&gt; appended to the end, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;http://thisrocks.com/app/#top&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Again, in this case you’d have to override the defaults set in your &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag by specifying the page you want your link to be relative to, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;article.html#top&quot;&amp;gt;Back to Top&amp;lt;/a&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;###Where &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; Works Best&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag is best used in a scenario where you know you’ll be able to exert complete control over the use of all URLs, i.e. you know you’ll be able to override the defaults as required. If you’re creating a theme for a CMS where there are many unknown variables it’s probably a good idea to leave &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; out of the mix.&lt;/p&gt;
+
+&lt;p&gt;However, if you’re building a static HTML site &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; can be very helpful. This is the case even more so if you’re using a templating language such as Jade or Handlebars that will let you place shortcuts like &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;{url}#top&quot;&amp;gt;Back to Top&amp;lt;/a&amp;gt;&lt;/code&gt;, so if you need to override default settings it’s still quick and easy.&lt;/p&gt;
+
+&lt;p&gt;If you have a good idea what your project’s content will be, and its use of URLs and links is fully under your control, you might find the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag saves you a lot of time.&lt;/p&gt;
+
+&lt;p&gt;Read more about &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; at the W3C wiki and HTML5 spec:
+-&lt;a href=&quot;http://www.w3.org/wiki/HTML/Elements/base&quot;&gt;http://www.w3.org/wiki/HTML/Elements/base&lt;/a&gt;
+-&lt;a href=&quot;http://www.w3.org/TR/html5/document-metadata.html#the-base-element&quot;&gt;http://www.w3.org/TR/html5/document-metadata.html#the-base-element&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag--cms-21399&quot;&gt;Link gốc&lt;/a&gt;{target=’_blank’}&lt;/p&gt;</content><author><name></name></author><category term="html" /><category term="base" /><category term="tag" /><summary type="html">/by Kezz Bracey20 Jun 2014/</summary></entry><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting/">&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.kodementor.com/how-to-deploy-laravel-project-in-000webhost/&quot;&gt;How to deploy laravel app on 000webhost&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JCzgVq8.png&quot; alt=&quot;https://www.000webhost.com&quot; /&gt;&lt;/p&gt;
 
