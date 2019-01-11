@@ -5,7 +5,7 @@ tags: [linux, ubuntu]
 ---
 AIM: To introduce about vietnamese input engine
 
-The tutorial about how to install, use ... you can find on its home page.
+The tutorial is not about how to install, use ... you can find on its home page.
 
 ### ibus-unieky
 Home: [https://github.com/vn-input/ibus-unikey](https://github.com/vn-input/ibus-unikey){:target="_blank"} 
@@ -20,4 +20,4 @@ Home: [https://github.com/teni-ime/ibus-teni](https://github.com/teni-ime/ibus-t
 Home: [http://www.trankynam.com/gotv/](http://www.trankynam.com/gotv/){:target="_blank"}
 
 
-If you know someone else pls update by leave a comment on this post, thanks!
+If you know another please leave a comment on this post, thanks!

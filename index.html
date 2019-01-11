@@ -3,18 +3,23 @@ layout: default
 ---
 
 <div class="posts">
-	{% for post in paginator.posts %}
-	 <div class="content is-small">
-		<div class="tile is-ancestor">
-			<div class="tile is-parent">
-				<article class="tile is-child box">
-					<p class="title" style="font-size: 1.45em;"><a style="color:#363636;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-					<p class="subtitle" style="font-size: 0.75rem;">{{ post.excerpt }}</p>
-				</article>
+	<div class="content is-small">
+		<section class="section is-small" style="padding:0">
+		{% for post in paginator.posts %}
+		<h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		<!-- <div class="content is-small">
+			<div class="tile is-ancestor">
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="title" style="font-size: 1.45em;"><a style="color:#363636;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+						<p class="subtitle" style="font-size: 0.75rem;">{{ post.excerpt }}</p>
+					</article>
+				</div>
 			</div>
-		</div>
+		</div> -->
+		{% endfor %}
+		</section>
 	</div>
-  	{% endfor %}
 	
   	<div class="control is-grouped pg has-text-centered">
 		{% if paginator.previous_page %}

@@ -14,4 +14,4 @@ excerpt: 1. Xtreme Download Manager (XDMan)
 7. Axel
 8. Wget
 9. JDownloader
-10. 
+10. Updating...
