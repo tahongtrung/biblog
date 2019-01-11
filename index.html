@@ -6,7 +6,11 @@ layout: default
 	<div class="content is-small">
 		<section class="section is-small" style="padding:0">
 		{% for post in paginator.posts %}
-		<h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		<div class="field is-grouped is-grouped-multiline"">
+			<h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+			<p class="subtitle">12 Sept | #ubuntu #linux</p>
+		</div>
+		
 		<!-- <div class="content is-small">
 			<div class="tile is-ancestor">
 				<div class="tile is-parent">
