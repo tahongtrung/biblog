@@ -6,12 +6,54 @@ title: Contact
 
 <h2 class="subtile">Leave a touch</h2>
 <div class="has-text-centered">
-    <form action="https://formspree.io/dev@trung.ml" method="POST">
-        <input type="text" name="name">
-        <input type="email" name="_replyto">
-        <textarea name="message" id="" cols="30" rows="10">
-            
-        </textarea>
-        <input type="submit" value="Send">
-    </form>
+        <form action="https://formspree.io/dev@trung.ml" method="POST">
+            <div class="bd-snippet-preview ">
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control is-expanded has-icons-left has-icons-right">
+                                <input class="input is-small" id="name" type="text" placeholder="Name" type="name">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                    <i class="fas fa-check"></i>
+                                    </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control is-expanded has-icons-left has-icons-right">
+                                <input class="input is-small" id="email" type="_replyto" placeholder="Email">
+                                <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-check"></i>
+                                    </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <textarea id="message" name="message" class="textarea is-small" placeholder="Explain how we can help you"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-light" type="submit">
+                                    Post comment
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
 </div>
