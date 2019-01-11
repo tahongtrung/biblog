@@ -10,7 +10,8 @@ The `<base>` tag in HTML is a relatively little known element, having become a f
 1. Set any URL you choose as the base for all relative URLs.
 2. Set default link targets.
 
-###The Base-ics
+### The Base-ics
+
 The `<base>` element is defined in the `<head>` section and you can only use it once per document. You should place it as early as possible in your head section so you can use it from that point on. Its two possible attributes are `href` and `target`. You can use either of these attributes alone or both at once.
 
 Example 1: Asset Loading Shortcut
@@ -65,7 +66,7 @@ You can also use `<base>` to set the default target for all links on your page. 
 
 This functionality could potentially be useful for content loaded in via an iFrame, as you would be able to automatically have all links therein targeted to the parent frame.
 
-###Drawbacks
+### Drawbacks
 
 While the `<base>` url can be handy, its drawbacks center around the fact that after defining it once you're stuck with it. You can only use it in a single way and it will then affect all URLs. Wherever you don't want to use the defaults set in your `<base>` tag you have to specifically override them.
 
@@ -84,7 +85,7 @@ However if you're using a `<base>` tag with an `href` attribute you'd instead be
 
 Again, in this case you'd have to override the defaults set in your `<base>` tag by specifying the page you want your link to be relative to, e.g. `<a href="article.html#top">Back to Top</a>`.
 
-###Where `<base>` Works Best
+### Where `<base>` Works Best
 
 The `<base>` tag is best used in a scenario where you know you'll be able to exert complete control over the use of all URLs, i.e. you know you'll be able to override the defaults as required. If you're creating a theme for a CMS where there are many unknown variables it's probably a good idea to leave `<base>` out of the mix.
 
@@ -93,9 +94,7 @@ However, if you're building a static HTML site `<base>` can be very helpful. Thi
 If you have a good idea what your project's content will be, and its use of URLs and links is fully under your control, you might find the `<base>` tag saves you a lot of time.
 
 Read more about `<base>` at the W3C wiki and HTML5 spec:
-
--[http://www.w3.org/wiki/HTML/Elements/base](http://www.w3.org/wiki/HTML/Elements/base)
-
--[http://www.w3.org/TR/html5/document-metadata.html#the-base-element](http://www.w3.org/TR/html5/document-metadata.html#the-base-element)
+* [http://www.w3.org/wiki/HTML/Elements/base](http://www.w3.org/wiki/HTML/Elements/base)
+* [http://www.w3.org/TR/html5/document-metadata.html#the-base-element](http://www.w3.org/TR/html5/document-metadata.html#the-base-element)
 
 [Link gốc](https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag--cms-21399)

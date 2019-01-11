@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-01-11T13:55:10+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-01-11T14:04:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
   &lt;li&gt;Xtreme Download Manager (XDMan)&lt;/li&gt;
   &lt;li&gt;DownThemAll&lt;/li&gt;
   &lt;li&gt;MultiGet&lt;/li&gt;
@@ -34,8 +34,9 @@ https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-bas
   &lt;li&gt;Set default link targets.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;###The Base-ics
-The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; element is defined in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section and you can only use it once per document. You should place it as early as possible in your head section so you can use it from that point on. Its two possible attributes are &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;target&lt;/code&gt;. You can use either of these attributes alone or both at once.&lt;/p&gt;
+&lt;h3 id=&quot;the-base-ics&quot;&gt;The Base-ics&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; element is defined in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section and you can only use it once per document. You should place it as early as possible in your head section so you can use it from that point on. Its two possible attributes are &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;target&lt;/code&gt;. You can use either of these attributes alone or both at once.&lt;/p&gt;
 
 &lt;p&gt;Example 1: Asset Loading Shortcut&lt;/p&gt;
 
@@ -83,7 +84,7 @@ The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/cod
 
 &lt;p&gt;This functionality could potentially be useful for content loaded in via an iFrame, as you would be able to automatically have all links therein targeted to the parent frame.&lt;/p&gt;
 
-&lt;p&gt;###Drawbacks&lt;/p&gt;
+&lt;h3 id=&quot;drawbacks&quot;&gt;Drawbacks&lt;/h3&gt;
 
 &lt;p&gt;While the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; url can be handy, its drawbacks center around the fact that after defining it once you’re stuck with it. You can only use it in a single way and it will then affect all URLs. Wherever you don’t want to use the defaults set in your &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag you have to specifically override them.&lt;/p&gt;
 
@@ -102,7 +103,7 @@ When using &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&
 
 &lt;p&gt;Again, in this case you’d have to override the defaults set in your &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag by specifying the page you want your link to be relative to, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;article.html#top&quot;&amp;gt;Back to Top&amp;lt;/a&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;###Where &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; Works Best&lt;/p&gt;
+&lt;h3 id=&quot;where-base-works-best&quot;&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; Works Best&lt;/h3&gt;
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag is best used in a scenario where you know you’ll be able to exert complete control over the use of all URLs, i.e. you know you’ll be able to override the defaults as required. If you’re creating a theme for a CMS where there are many unknown variables it’s probably a good idea to leave &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; out of the mix.&lt;/p&gt;
 
@@ -111,10 +112,10 @@ When using &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&
 &lt;p&gt;If you have a good idea what your project’s content will be, and its use of URLs and links is fully under your control, you might find the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag saves you a lot of time.&lt;/p&gt;
 
 &lt;p&gt;Read more about &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; at the W3C wiki and HTML5 spec:&lt;/p&gt;
-
-&lt;p&gt;-&lt;a href=&quot;http://www.w3.org/wiki/HTML/Elements/base&quot;&gt;http://www.w3.org/wiki/HTML/Elements/base&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;-&lt;a href=&quot;http://www.w3.org/TR/html5/document-metadata.html#the-base-element&quot;&gt;http://www.w3.org/TR/html5/document-metadata.html#the-base-element&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.w3.org/wiki/HTML/Elements/base&quot;&gt;http://www.w3.org/wiki/HTML/Elements/base&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/html5/document-metadata.html#the-base-element&quot;&gt;http://www.w3.org/TR/html5/document-metadata.html#the-base-element&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag--cms-21399&quot;&gt;Link gốc&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="html" /><category term="base" /><category term="tag" /><summary type="html">/by Kezz Bracey20 Jun 2014/</summary></entry><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting/">&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.kodementor.com/how-to-deploy-laravel-project-in-000webhost/&quot;&gt;How to deploy laravel app on 000webhost&lt;/a&gt;&lt;/p&gt;
 
