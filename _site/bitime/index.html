@@ -377,6 +377,9 @@ to create linebreak tags</p>
 	<script defer src="https://bilog.trung.ml/public/js/functions.js"></script>
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<script type="text/javascript">
+		$('.navbar-burger').click(function() {
+			$('#navbarBasicExample, .navbar-burger').toggleClass('is-active');
+		});
 		$("#fakeloader").fakeLoader({
 			timeToHide:1200, //Time in milliseconds for fakeLoader disappear
 			zIndex:"9999",//Default zIndex
