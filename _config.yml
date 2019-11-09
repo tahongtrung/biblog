@@ -36,8 +36,8 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 
 #########for production############################
-url: 'https://bilog.trung.ml'
-baseurl: 'https://bilog.trung.ml'
+url: 'https://bilog.trung.link'
+baseurl: 'https://bilog.trung.link'
 paginate_path: '/page:num'
 ############ end for production ###################
 #paginate_path: '/bilog/page:num/'

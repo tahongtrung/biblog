@@ -70,7 +70,7 @@ permalink: /about/
 	<div class="control">
 		<div class="tags has-addons">
 			<span class="tag is-dark">contact me</span>
-			<span class="tag is-info"><a href="mailto:dev@trung.ml" style="color:#FFF;">dev@trung.ml</a></span>
+			<span class="tag is-info"><a href="mailto:dev@trung.link" style="color:#FFF;">dev@trung.link</a></span>
 		</div>
 	</div>
 </div>	

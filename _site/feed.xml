@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.ml/" rel="alternate" type="text/html" /><updated>2019-10-21T23:42:02+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/feed.xml</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">MongoDB client tools</title><link href="http://localhost:4000/https://bilog.trung.ml/mongodb-client-tools/" rel="alternate" type="text/html" title="MongoDB client tools" /><published>2019-01-13T00:00:00+07:00</published><updated>2019-01-13T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/mongodb-client-tools</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/mongodb-client-tools/"></content><author><name></name></author><category term="mongodb" /><summary type="html"></summary></entry><entry><title type="html">.Net developer path</title><link href="http://localhost:4000/https://bilog.trung.ml/net-developer-path/" rel="alternate" type="text/html" title=".Net developer path" /><published>2019-01-12T00:00:00+07:00</published><updated>2019-01-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/net-developer-path</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/net-developer-path/"></content><author><name></name></author><category term=".net" /><summary type="html"></summary></entry><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/downloader-on-linux/">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/https://bilog.trung.link/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/https://bilog.trung.link/" rel="alternate" type="text/html" /><updated>2019-11-10T00:42:51+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/feed.xml</id><title type="html">bilog</title><subtitle>log your mind</subtitle><entry><title type="html">SQL client tools</title><link href="http://localhost:4000/https://bilog.trung.link/sql-client-tools/" rel="alternate" type="text/html" title="SQL client tools" /><published>2019-10-22T00:00:00+07:00</published><updated>2019-10-22T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/sql-client-tools</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/sql-client-tools/"></content><author><name></name></author><category term="mongodb" /><summary type="html"></summary></entry><entry><title type="html">MongoDB client tools</title><link href="http://localhost:4000/https://bilog.trung.link/mongodb-client-tools/" rel="alternate" type="text/html" title="MongoDB client tools" /><published>2019-01-13T00:00:00+07:00</published><updated>2019-01-13T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/mongodb-client-tools</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/mongodb-client-tools/"></content><author><name></name></author><category term="mongodb" /><summary type="html"></summary></entry><entry><title type="html">.Net developer path</title><link href="http://localhost:4000/https://bilog.trung.link/net-developer-path/" rel="alternate" type="text/html" title=".Net developer path" /><published>2019-01-12T00:00:00+07:00</published><updated>2019-01-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/net-developer-path</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/net-developer-path/"></content><author><name></name></author><category term=".net" /><summary type="html"></summary></entry><entry><title type="html">Downloader On Linux</title><link href="http://localhost:4000/https://bilog.trung.link/downloader-on-linux/" rel="alternate" type="text/html" title="Downloader On Linux" /><published>2018-09-19T00:00:00+07:00</published><updated>2018-09-19T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/downloader-on-linux</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/downloader-on-linux/">&lt;ol&gt;
   &lt;li&gt;Xtreme Download Manager (XDMan)&lt;/li&gt;
   &lt;li&gt;DownThemAll&lt;/li&gt;
   &lt;li&gt;MultiGet&lt;/li&gt;
@@ -9,7 +9,7 @@
   &lt;li&gt;Wget&lt;/li&gt;
   &lt;li&gt;JDownloader&lt;/li&gt;
   &lt;li&gt;Updating…&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">1. Xtreme Download Manager (XDMan)</summary></entry><entry><title type="html">Can’t locate inc/Module/Install.pm</title><link href="http://localhost:4000/https://bilog.trung.ml/can-t-locate-inc-module-install-pm/" rel="alternate" type="text/html" title="Can't locate inc/Module/Install.pm" /><published>2018-09-13T00:00:00+07:00</published><updated>2018-09-13T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/can-t-locate-inc-module-install-pm</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/can-t-locate-inc-module-install-pm/">&lt;p&gt;zcbxzcnzc
+&lt;/ol&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">1. Xtreme Download Manager (XDMan)</summary></entry><entry><title type="html">Can’t locate inc/Module/Install.pm</title><link href="http://localhost:4000/https://bilog.trung.link/can-t-locate-inc-module-install-pm/" rel="alternate" type="text/html" title="Can't locate inc/Module/Install.pm" /><published>2018-09-13T00:00:00+07:00</published><updated>2018-09-13T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/can-t-locate-inc-module-install-pm</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/can-t-locate-inc-module-install-pm/">&lt;p&gt;zcbxzcnzc
 fix this bug here:
 https://github.com/trustly/dbix-pg-callfunction/issues/1&lt;/p&gt;
 
@@ -19,7 +19,11 @@ https://github.com/trustly/dbix-pg-callfunction/issues/1&lt;/p&gt;
 
 &lt;p&gt;bonus tip: https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git&lt;/p&gt;
 
-&lt;p&gt;this guide set default pass for git bash push.sh&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">zcbxzcnzc fix this bug here: https://github.com/trustly/dbix-pg-callfunction/issues/1</summary></entry><entry><title type="html">Install Request Tracker 4 in ubuntu</title><link href="http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu/" rel="alternate" type="text/html" title="Install Request Tracker 4 in ubuntu" /><published>2018-09-12T00:00:00+07:00</published><updated>2018-09-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/install-rt4-in-ubuntu/">&lt;h1 id=&quot;aim&quot;&gt;Aim&lt;/h1&gt;
+&lt;p&gt;this guide set default pass for git bash push.sh&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">zcbxzcnzc fix this bug here: https://github.com/trustly/dbix-pg-callfunction/issues/1</summary></entry><entry><title type="html">Failed to enable APR_TCP_DEFER_ACCEPT</title><link href="http://localhost:4000/https://bilog.trung.link/failed-to-enable-apr-tcp-defer-accept/" rel="alternate" type="text/html" title="Failed to enable APR_TCP_DEFER_ACCEPT" /><published>2018-09-12T00:00:00+07:00</published><updated>2018-09-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/failed-to-enable-apr-tcp-defer-accept</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/failed-to-enable-apr-tcp-defer-accept/">&lt;p&gt;https://github.com/Microsoft/WSL/issues/1953&lt;/p&gt;
+
+&lt;p&gt;Add the following line to the end of the /etc/apache2/apache2.conf file:&lt;/p&gt;
+
+&lt;p&gt;AcceptFilter http none&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="fixbug" /><category term="linux" /><summary type="html">https://github.com/Microsoft/WSL/issues/1953</summary></entry><entry><title type="html">Install Request Tracker 4 in ubuntu</title><link href="http://localhost:4000/https://bilog.trung.link/install-rt4-in-ubuntu/" rel="alternate" type="text/html" title="Install Request Tracker 4 in ubuntu" /><published>2018-09-12T00:00:00+07:00</published><updated>2018-09-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/install-rt4-in-ubuntu</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/install-rt4-in-ubuntu/">&lt;h1 id=&quot;aim&quot;&gt;Aim&lt;/h1&gt;
 
 &lt;p&gt;Our aim is to install &lt;a href=&quot;https://bestpractical.com/rt/&quot;&gt;Request Tracker (RT)&lt;/a&gt; 4.4.2 on &lt;a href=&quot;https://debian.org/&quot;&gt;Debian GNU/Linux&lt;/a&gt; 8.6 with less pain&lt;/p&gt;
 
@@ -130,13 +134,9 @@ sudo systemctl restart apache2.service
   &lt;li&gt;Stack Overflow: &lt;a href=&quot;http://stackoverflow.com/questions/9693031/how-to-install-xmlparser-without-expat-devel&quot;&gt;How to install XML::Parser without expat-devel?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;note here: https://gist.github.com/trungx/f6533ec6a91b080e9951e04bead60b5a&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">Aim</summary></entry><entry><title type="html">Failed to enable APR_TCP_DEFER_ACCEPT</title><link href="http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept/" rel="alternate" type="text/html" title="Failed to enable APR_TCP_DEFER_ACCEPT" /><published>2018-09-12T00:00:00+07:00</published><updated>2018-09-12T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/failed-to-enable-apr-tcp-defer-accept/">&lt;p&gt;https://github.com/Microsoft/WSL/issues/1953&lt;/p&gt;
-
-&lt;p&gt;Add the following line to the end of the /etc/apache2/apache2.conf file:&lt;/p&gt;
-
-&lt;p&gt;AcceptFilter http none&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="fixbug" /><category term="linux" /><summary type="html">https://github.com/Microsoft/WSL/issues/1953</summary></entry><entry><title type="html">Vietnamese folder path</title><link href="http://localhost:4000/https://bilog.trung.ml/vietnamese-folder-path/" rel="alternate" type="text/html" title="Vietnamese folder path" /><published>2018-09-11T00:00:00+07:00</published><updated>2018-09-11T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/vietnamese-folder-path</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/vietnamese-folder-path/">&lt;blockquote&gt;
+&lt;p&gt;note here: https://gist.github.com/trungx/f6533ec6a91b080e9951e04bead60b5a&lt;/p&gt;</content><author><name></name></author><category term="ubuntu" /><category term="linux" /><summary type="html">Aim</summary></entry><entry><title type="html">Vietnamese folder path</title><link href="http://localhost:4000/https://bilog.trung.link/vietnamese-folder-path/" rel="alternate" type="text/html" title="Vietnamese folder path" /><published>2018-09-11T00:00:00+07:00</published><updated>2018-09-11T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/vietnamese-folder-path</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/vietnamese-folder-path/">&lt;blockquote&gt;
   &lt;p&gt;If you are a developer or someone related to IT, you should &lt;strong&gt;NOT&lt;/strong&gt; name your folder in vietnamese but it could be valid if name with &lt;strong&gt;NO&lt;/strong&gt; signal&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="folder" /><category term="fixbug" /><summary type="html">If you are a developer or someone related to IT, you should NOT name your folder in vietnamese but it could be valid if name with NO signal</summary></entry><entry><title type="html">Html base tag</title><link href="http://localhost:4000/https://bilog.trung.ml/html-base-tag/" rel="alternate" type="text/html" title="Html base tag" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/html-base-tag</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/html-base-tag/">&lt;p&gt;/by Kezz Bracey20 Jun 2014/&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="folder" /><category term="fixbug" /><summary type="html">If you are a developer or someone related to IT, you should NOT name your folder in vietnamese but it could be valid if name with NO signal</summary></entry><entry><title type="html">Html base tag</title><link href="http://localhost:4000/https://bilog.trung.link/html-base-tag/" rel="alternate" type="text/html" title="Html base tag" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/html-base-tag</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/html-base-tag/">&lt;p&gt;/by Kezz Bracey20 Jun 2014/&lt;/p&gt;
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&lt;/code&gt; tag in HTML is a relatively little known element, having become a fully fledged part of HTML5 quite recently. It enables you to do two things:&lt;/p&gt;
 &lt;ol&gt;
@@ -227,77 +227,5 @@ When using &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;base&amp;gt;&
   &lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/html5/document-metadata.html#the-base-element&quot;&gt;http://www.w3.org/TR/html5/document-metadata.html#the-base-element&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag--cms-21399&quot;&gt;Link gốc&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="html" /><category term="base" /><category term="tag" /><summary type="html">/by Kezz Bracey20 Jun 2014/</summary></entry><entry><title type="html">Maximum execution time of 30 seconds exceeded</title><link href="http://localhost:4000/https://bilog.trung.ml/maximum-execution-time-of-30-seconds-exceeded/" rel="alternate" type="text/html" title="Maximum execution time of 30 seconds exceeded" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/maximum-execution-time-of-30-seconds-exceeded</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/maximum-execution-time-of-30-seconds-exceeded/">&lt;p&gt;this post
-https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="fixbug" /><category term="php" /><category term="error" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry><entry><title type="html">Laravel Shared Hosting</title><link href="http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting/" rel="alternate" type="text/html" title="Laravel Shared Hosting" /><published>2018-09-06T00:00:00+07:00</published><updated>2018-09-06T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.ml/laravel-in-shared-hosting/">&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.kodementor.com/how-to-deploy-laravel-project-in-000webhost/&quot;&gt;How to deploy laravel app on 000webhost&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JCzgVq8.png&quot; alt=&quot;https://www.000webhost.com&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;#fixbug: laravel shared host&lt;/p&gt;
-
-  &lt;p&gt;Vì đi support các bạn khá nhiều lỗi này và mình cũng có hứa là sẽ viết một bài để khỏi đi support dạo nữa mà dạo này bận rộn quá nên chưa viết được nay thì viết bất chấp luôn.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Nếu bạn đang xài VPS thì đừng làm theo cách này (đừng tự bóp  dái)&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Post này cũng dành cho các host mà bạn nghĩ nó như 000webhost nói chung là &lt;code class=&quot;highlighter-rouge&quot;&gt;shared host&lt;/code&gt; đó.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lưu ý toàn bộ config trong file &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; không có tác dụng trên shared host 000webhost này, nên khỏi up cho nhẹ host cũng được!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Nếu bạn chưa up source lên host:
-    &lt;ul&gt;
-      &lt;li&gt;Dừng server lại nha&lt;/li&gt;
-      &lt;li&gt;Clear cache này nọ các kiểu nói chung là xóa sạch cache
-&lt;code class=&quot;highlighter-rouge&quot;&gt;php artisan config:clear&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;php artisan cache:clear&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Xóa thư mục chứa cache &lt;code class=&quot;highlighter-rouge&quot;&gt;/bootstrap/cache/*&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Config file &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; đúng với trên host thật&lt;/li&gt;
-      &lt;li&gt;Rồi up lên đi. Hên xuôi à! bình thường ai ăn ở tốt thì work luôn khỏi next step 2. :D&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Nếu bạn trót dại up source lên host roài! ==’
-    &lt;ul&gt;
-      &lt;li&gt;Bật debug mode = true lên (&lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt;) chứ không phải &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt;
- &lt;img src=&quot;https://i.imgur.com/bdL9bpi.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thêm như này nè &lt;code class=&quot;highlighter-rouge&quot;&gt;public_html/config/app.php&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Set app key trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt; luôn như đã nói ở trên &lt;code class=&quot;highlighter-rouge&quot;&gt;.env&lt;/code&gt; là phế phẩm mà.
- &lt;img src=&quot;https://i.imgur.com/rKkXfcP.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; nhớ copy đủ cả prefix &lt;code class=&quot;highlighter-rouge&quot;&gt;base:64...&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Cấu hình database trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/database.php&lt;/code&gt; đa số xài mysql thì config như sau
- &lt;img src=&quot;https://i.imgur.com/g1IUDcQ.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; lưu ý có 1 option &lt;code class=&quot;highlighter-rouge&quot;&gt;'options'   =&amp;gt; [PDO::ATTR_EMULATE_PREPARES =&amp;gt; true]&lt;/code&gt; cực kì quan trọng nhớ thêm vào&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Phương pháp ăn liền gặp đâu đái đấy! nhầm,, xử đấy.
- &lt;img src=&quot;https://i.imgur.com/bifHN3c.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thử gõ thêm &lt;code class=&quot;highlighter-rouge&quot;&gt;/public/&lt;/code&gt; phía sau url xem nếu work thì copy 2 file &lt;code class=&quot;highlighter-rouge&quot;&gt;index.php&lt;/code&gt; và &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; ra ngoài.
- =&amp;gt; bonus: nếu lười có thể copy 2 file đấy ở này &lt;a href=&quot;https://gist.github.com/trung2nd/9f4cbe15ca971433fa4ba89b671eff3a&quot; target=&quot;_blank&quot;&gt;.htaccess&lt;/a&gt; &lt;a href=&quot;https://gist.github.com/trung2nd/0b00b5f2753318558c7cd521fbbfb424&quot; target=&quot;_blank&quot;&gt;index.php&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/LJtSv7S.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thêm &lt;code class=&quot;highlighter-rouge&quot;&gt;/public/&lt;/code&gt; phía sau mà ra này thì chịu luôn. Nói chớ bật debug mode = true lên giùm cái chứ sao mà biết nó lỗi gì!&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/scqKYXR.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Chưa set app key trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/app.php&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/1bqLuXo.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Chưa config/config sai database trong &lt;code class=&quot;highlighter-rouge&quot;&gt;config/database.php&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hdWlHs5.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Thiếu option trong config db &lt;code class=&quot;highlighter-rouge&quot;&gt;'options'   =&amp;gt; [PDO::ATTR_EMULATE_PREPARES =&amp;gt; true]&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/xSLMLDr.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; Chưa import data cho database.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/AXOJt6f.png&quot; alt=&quot;&quot; /&gt;
- =&amp;gt; các lỗi còn lại có liên quan đến thư mục &lt;code class=&quot;highlighter-rouge&quot;&gt;vender&lt;/code&gt; (up thiếu file trong này rồi up lại vender thôi) hoặc syntax lạ -&amp;gt; thường là do k tương thích phiên bản php, các bạn check bằng cách new 1 file info.php trong &lt;code class=&quot;highlighter-rouge&quot;&gt;public_html&lt;/code&gt; của host rồi phpinfo làm tương tự với local của bạn check xem 2 phiên bản php có cùng nhau không hoặc bạn nâng php trên host lên hoặc hạ laravel xuống!&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Nếu có khó khăn gì trong quá trình fix bug vui lòng để lại comment để được support ^^!
-&lt;!-- &lt;p align=&quot;center&quot; class=&quot;pre&quot;&gt;
-JS can do everything but take care on how to handle exceptions in your code. Otherwise they go crazy like the panda above.
-&lt;/p&gt; --&gt;&lt;/p&gt;</content><author><name></name></author><category term="laravel" /><summary type="html">Vì đi support các bạn khá nhiều lỗi này và mình cũng có hứa là sẽ viết một bài để khỏi đi support dạo ....</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag--cms-21399&quot;&gt;Link gốc&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="html" /><category term="base" /><category term="tag" /><summary type="html">/by Kezz Bracey20 Jun 2014/</summary></entry><entry><title type="html">Maximum execution time of 30 seconds exceeded</title><link href="http://localhost:4000/https://bilog.trung.link/maximum-execution-time-of-30-seconds-exceeded/" rel="alternate" type="text/html" title="Maximum execution time of 30 seconds exceeded" /><published>2018-09-10T00:00:00+07:00</published><updated>2018-09-10T00:00:00+07:00</updated><id>http://localhost:4000/https://bilog.trung.link/maximum-execution-time-of-30-seconds-exceeded</id><content type="html" xml:base="http://localhost:4000/https://bilog.trung.link/maximum-execution-time-of-30-seconds-exceeded/">&lt;p&gt;this post
+https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399&lt;/p&gt;</content><author><name></name></author><category term="fixbug" /><category term="php" /><category term="error" /><summary type="html">this post https://webdesign.tutsplus.com/articles/quick-tip-set-relative-urls-with-the-base-tag–cms-21399</summary></entry></feed>

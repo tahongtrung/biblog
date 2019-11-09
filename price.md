@@ -12,21 +12,21 @@ Các bạn xem chi tiết ở studio của team mình nhá!..
 
 <a href="https://oxanh.github.io" target="_blank">https://oxanh.github.io</a>
 
-### Hosted by wwww.trung.ml
+### Hosted by wwww.trung.link
 
-[Home](https://trung.ml)
-
-
-[Tiểu Trư](https://tieutru.trung.ml)
+[Home](https://trung.link)
 
 
-[N2K18](https://n2k18.trung.ml)
+[Tiểu Trư](https://tieutru.trung.link)
 
 
-[Trang Cá Vang](https://trangcavang.trung.ml)
+[N2K18](https://n2k18.trung.link)
 
 
-[Sim](https://sim.trung.ml)
+[Trang Cá Vang](https://trangcavang.trung.link)
+
+
+[Sim](https://sim.trung.link)
 
 
 
